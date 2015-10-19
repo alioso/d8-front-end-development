@@ -28,4 +28,4 @@ Add this line at the top of your page.html.twig
 
 ```<h2>{{ my_variable }}</h2>```
 
-The bear_skin.theme controls variables which are made available to your .html.twig files. In addition to this custom variable here were can pre-process output, and intercept variables to alter them before they are output. 
+The bear_skin.theme controls variables which are made available to your .html.twig files. In addition to this custom variable here were can pre-process output, and intercept variables to alter them before they are output.
