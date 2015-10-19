@@ -12,7 +12,7 @@ The file where you will write your preprocesses in order to override Drupal func
 
 **Template files**<br />
 These files end in *.html.twig <br />
-The files contain the markup for a specific element. Duplicating a core file and placing it within a "template" folder in your theme will allow you to override the defaut Drupal markup.
+The files contain the markup for a specific element. Duplicating a core file and placing it within a "template" folder in your theme will allow you to override the default Drupal markup.
 
 
 **CSS files**<br />
