@@ -35,3 +35,17 @@ libraries:
   - mytheme/global_styling
   - mytheme/global_scripts
 ```
+
+**Step 3**: Add regions to your mytheme.info.yml file. These are the same as the core regions. They will work with the core page.html.twig. Notice the indentation shall remain consistent with the previous steps.
+
+```
+regions:
+  header: 'Header'
+  navigation: 'Navigation bar'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'First sidebar'
+  sidebar_second: 'Second sidebar'
+  footer: ‘Footer'
+```
