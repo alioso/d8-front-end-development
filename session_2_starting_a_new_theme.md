@@ -1,4 +1,4 @@
-# Session 2: Starting a new Theme
+# Session 2: Starting a new theme
 
 We will work to create a custom theme for the rest of next part of this training. Our custom theme will be called "bear_skin". 
 
