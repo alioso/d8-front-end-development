@@ -8,11 +8,9 @@ Since we have created our own **bear_skin** starter theme, we are going to use i
 
 * within you starter theme 
 
-
 mysite > core > themes > custom > bear_skin
 
 * or on the same level at
- 
 
 mysite > core > themes > custom
 
