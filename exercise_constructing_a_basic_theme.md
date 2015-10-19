@@ -49,3 +49,25 @@ regions:
   sidebar_second: 'Second sidebar'
   footer: ‘Footer'
 ```
+
+**Step 5**: Create a mytheme.libraries.yml in the theme root folder. This is where we will place the code that will point to our css and JS files. Notice that we include here some libraries that Drupal 8 does not include by default (jQuery etc).
+
+```
+global-scripts:
+  version: 1.x
+  js:
+    js/scripts.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+
+global-styling:
+  version: 1.x
+  css: 
+    theme:
+      css/styles.css: {}
+      css/print.css: { media: print }
+```
