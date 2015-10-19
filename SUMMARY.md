@@ -5,5 +5,5 @@
    * [Skills for Front end Developers in Drupal](skills_for_front_end_developers_in_drupal.md)
    * [What is the theme layer?](what_is_the_theme_layer.md)
        * [Types of themes](types_of_themes.md)
-       * How does theming work?
+       * [How does theming work?](how_does_theming_work.md)
 
