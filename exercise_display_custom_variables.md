@@ -17,9 +17,13 @@ use Drupal\Core\Template\Attribute;
 ```
 
 **Step 2**: Define a custom variable
-function puppet_preprocess_page(&$variables) {
-	$variables['my_message'] = 'Oh! I see my variable now.';
-}xw
+
+```
+function bear_skin_preprocess_page(&$variables, $hook) {
+    
+}
+```
+
 Step 3: Display in page.tpl.php
 Add this line at the bottom of  your page.tpl.php
 <h1>My message: <?php print $my_message; ?></h1>
