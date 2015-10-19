@@ -12,4 +12,4 @@
 
 **Sub Themes**:  Theme based on a starter theme (inherits styles and templates). Sub themes are aimed at adding specific styling/overrides while keeping the update process and resources available for the base theme.
 
-**Administration Themes**: Themes that are displayed only in administration sections of a site. Some sites use a separate admin theme that is more optimized for administrative pages (e.g. has a wider width for showing big forms).
+**Administration Themes**: Themes that are displayed only in administration sections of a site. Some sites use a separate admin theme that is more optimized for administrative pages (e.g. has a wider width for showing large forms).
