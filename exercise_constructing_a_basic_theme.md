@@ -2,8 +2,8 @@
 
 **Step 1**: Go to your /themes/custom folder from youDrupal 8 root folder. 
 
-* Create a folder: bear_skin
-* Create a text file bear_skin.info.yml
+* ***Create a folder***: bear_skin
+* ***Create a text file***: bear_skin.info.yml
 
 
 
