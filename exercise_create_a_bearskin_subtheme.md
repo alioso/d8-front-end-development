@@ -21,7 +21,7 @@ All you need to get it registered is to include the base theme line in your subt
 ```
 name: Bear Coat
 type: theme
-description: 'Bear Skin Sub Theme with better styling.'
+description: 'Bear Skin Sub Theme with better styling'
 package: Custom
 core: 8.x
 engine: twig
