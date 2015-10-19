@@ -5,7 +5,7 @@ The easiest way to start is to copy the core page.html.twig into your theme fold
 
 The core file can be found at:
 
-bear_skin > core > modules > system > templates
+mysite > core > modules > system > templates
 
 To get started you can copy the code from this file and start customizing it for your own needs. Be warned! There are many necessary variables to add to page.html.twig. Refer to: https://api.drupal.org/api/drupal/core%21modules%21system%21templates%21page.html.twig/8
 
