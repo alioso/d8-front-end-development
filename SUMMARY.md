@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Introduction to Drupal Theming](introduction_to_drupal_theming.md)
+* [Session 1: Introduction to Drupal Theming](introduction_to_drupal_theming.md)
 
