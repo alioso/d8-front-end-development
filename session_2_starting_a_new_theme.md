@@ -2,4 +2,8 @@
 
 We will work to create a custom theme for the rest of next part of this training. Our custom theme will be called "bear_skin". 
 
-In our scenario a designer has completed a mockup showing a representative page display with this theme. Notice the elements it has and their placement. Does it have a max-width? Does it have a header, footer, logo, site name, sidebars, primary links menu, and secondary links menu? Where will it require background images? Which HTML elements (h1, h2, h3, p, a, li) does it represent? Do you see any common Drupal elements that the design does not represent which you would have to infer from the general design or ask the designer to address?
+In our scenario a designer has completed a mockup showing a representative page display with. First step is to identify the various regions and elements the layout asks for. Does it have a max-width? Does it have a banner, header, footer, logo, site name, sidebars, primary links menu, or secondary links menu?
+
+Do you see any common Drupal elements that the design does not represent which you would have to infer from the general design or ask the designer to address?
+
+These first steps are crucial to save development time in the future. A good assessment of the sites assets guaranties a  solid base for developemnt and collaborative work. Think of it as a cooking recipe. You first need to have all the ingredients, but the recipe won't tell you everything, you'll need to also evealuate what you don't see yet and try to plan ahead. 
