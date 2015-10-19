@@ -6,4 +6,6 @@ Since we have created our own **bear_skin** starter theme, we are going to use i
 
 **Step 1**: Create a theme_coat folder and place it either within you starter theme or on the same level at 
 
-mysite > core > themes > contrib
+mysite > core > themes > custom
+
+In our case we will place it within our starter theme, as this facilitates our git workflow.
