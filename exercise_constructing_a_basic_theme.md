@@ -22,3 +22,8 @@ engine: twig
 ```
 
 **Step 2**: On the Appearance page, enable and set Bear Skin to default
+
+Go to your Home page and view your site and view source
+* What can you tell from the look of your site about how Drupal works?
+* What was unexpected?
+* Do you need to clear the Drupal caches?
