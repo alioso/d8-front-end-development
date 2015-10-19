@@ -7,16 +7,17 @@ Now you have a hands-on understanding of the anatomy of a Drupal theme.
 **.info.yml**<br />
 This is the only required file of a theme. It defines the theme name, its regions, stylesheets, and other options. Each line defines an option as a key-value pair (key = value). Values not specified will use Drupal’s default.
 
-Additional processing and logic for a theme takes place here. It can override output of other modules via theme function overrides (see http://drupal.org/node/173880#function-override). It can define and edit variables to be used by template files with preprocess functions (see http://drupal.org/node/223430).
-template files
-These files end in *.tpl.php. Default templates include page.tpl.php, node.tpl.php, block.tpl.php and others (see http://drupal.org/node/1089656 for more). 
-The theme registry stores theme information, it must be cleared when new files are added (see http://drupal.org/node/173880#theme-registry)
-Use folders to organize your template files
-css files
-Files need to be listed in the .info file or included elsewhere with code
-Multiple files can be created to keep things organized
-Use folders to organize your CSS files 
-js files
+**Template files**<br />
+These files end in *.html.twig <br />
+The theme registry stores theme information.
+Use a template folders to organize your template files
+
+**CSS files**<br />
+Files need to be listed in the .info file or included elsewhere with code.Multiple files can be created to keep things organized and modular.
+Use folders to organize your CSS files as well.
+Many people use sass and a pre-processor nowadays. scss files need to follow the same  structure to keep things well organized.
+
+**JS files**<br />
 These must be included from code, typically from inside template.php
 images
 Image files that are specific to the theme (background images, buttons, etc) should be kept within the theme in an images folder
