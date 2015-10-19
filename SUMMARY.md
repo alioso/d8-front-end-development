@@ -1,4 +1,4 @@
 # Summary
 
-* Introduction to Drupal Theming
+* [Introduction to Drupal Theming](introduction_to_drupal_theming.md)
 
