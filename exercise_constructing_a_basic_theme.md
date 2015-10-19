@@ -35,5 +35,4 @@ libraries:
   - mytheme/global_styling
   - mytheme/global_scripts
 
-
 ```
