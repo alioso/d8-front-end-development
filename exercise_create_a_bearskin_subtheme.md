@@ -15,3 +15,16 @@ mysite > core > themes > custom > bear_skin
 mysite > core > themes > custom
 
 In our case we will place it within our starter theme, as this facilitates our git workflow.
+
+All you need to get it registered is to include the base theme line in your subtheme bear_coat.info.yml
+
+```
+name: Bear Coat
+type: theme
+description: 'Bear Skin Sub Theme with better styling.'
+package: Custom
+core: 8.x
+engine: twig
+base theme: bear_skin
+screenshot: screenshot.png
+```
