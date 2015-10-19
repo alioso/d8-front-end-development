@@ -1,7 +1,7 @@
 # Exercise: Display custom variables
 
 **Step 1**: Add the theme file.
-Create a new file in your folder called bearskin.theme. This file was previously called template.php in Drupal 7. The .theme file serves the exact same purpose, but many of the preprocess functions are different in Drupal 8.
+Create a new file in your folder called **bear_skin.theme**. This file was previously called template.php in Drupal 7. The .theme file serves the exact same purpose, but many of the preprocess functions are different in Drupal 8.
 
 
 
