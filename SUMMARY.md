@@ -15,6 +15,6 @@
    * [Exercise: Display custom variables](exercise_display_custom_variables.md)
    * [Exercise: Intercept and alter](exercise_intercept_and_alter.md)
    * [Review: Anatomy of a theme](review_anatomy_of_a_theme.md)
-* [Starter themes and Sub themes](starter_themes_and_sub_themes.md)
+* [Session 3: Starter themes and Sub themes](starter_themes_and_sub_themes.md)
    * [Exercise: Create a bear_skin Subtheme](exercise_create_a_bearskin_subtheme.md)
 
