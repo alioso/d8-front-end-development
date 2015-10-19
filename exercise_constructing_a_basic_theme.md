@@ -29,3 +29,11 @@ Go to your Home page and view your site and view source.
 * Do you need to clear the Drupal caches?
 
 **Step 3**: Define your libraries (css and JS) in your bearskin.info.yml file. This is a reference to a bearskin.libraries.yml we will be creating in step 5. Notice the indentation here: “libraries:” will be left aligned while the lines underneath will be indented by 2 spaces.
+
+```
+libraries:
+  - mytheme/global_styling
+  - mytheme/global_scripts
+
+
+```
