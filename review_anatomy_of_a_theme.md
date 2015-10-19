@@ -12,6 +12,9 @@ These files end in *.html.twig <br />
 The theme registry stores theme information.
 Use a template folders to organize your template files
 
+**.theme file**<br />
+The file where you will write your preprocesses in order to override Drupal functions and modify the output. 
+
 **CSS files**<br />
 Files need to be listed in the .libraries.yml file or included elsewhere with code. Multiple files can be created to keep things organized and modular.
 Use folders to organize your CSS files as well.
