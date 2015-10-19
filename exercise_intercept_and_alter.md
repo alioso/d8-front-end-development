@@ -22,6 +22,6 @@ function bear_skin_preprocess_page_title(&$variables) {
 }
 ```
 
-You can see in this example (and the one following) that the way to override a theme function is to get the right preprcess name (ex: ```function hook_preprocess_page_title(&$variables){}```) and replace "hook" with your theme name in this case.
+You can see in this example (and the one following) that the way to override a theme function is to get the right preprcess name (ex: ```function hook_preprocess_page_title(&$variables){}```) and replace "hook" with your theme name in this case. *note: if that function were to be in a custom module, the way to override it would be to replace hook with the module name*
 
 
