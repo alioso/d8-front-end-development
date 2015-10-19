@@ -20,7 +20,7 @@ use Drupal\Core\Template\Attribute;
 
 ```
 function bear_skin_preprocess_page(&$variables, $hook) {
-    
+    $variables['my_variable'] = "Here is my variable string"
 }
 ```
 
