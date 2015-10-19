@@ -31,7 +31,7 @@ You can see in this example (and the one following) that the way to override a t
 *note: if that function were to be in a custom module, the way to override it would be to replace hook with the module name.*
 
 
-In this second example, we'll add a class to the body tag to show whether the user is logged in or logged out.
+In this second example, we'll add a class to the body tag to show whether the user viewed by an authenticated user or not.
 
 ```
 /**
