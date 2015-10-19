@@ -20,7 +20,7 @@ Many people use sass and a pre-processor nowadays. scss files need to follow the
 **JS files**<br />
 Files need to be listed in the .libraries.yml file or included elsewhere with code as well.
 
-**images**<br />
+**Images**<br />
 Image files that are specific to the theme (background images, svg, sprites etc) should be kept within the theme in an images folder
 
 Images that are not specific to the theme (photo placed inline in a node body, etc) should not be placed in the theme, but should be handled by Drupal and placed/uploaded in its files directory.
