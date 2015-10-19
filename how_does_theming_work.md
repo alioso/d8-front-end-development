@@ -5,3 +5,12 @@ When a page is requested from a Drupal site, the PHP code in Drupal’s core fil
 On the file level, each theme is a directory named uniquely with a machine name (underscores and letters only).  This name should not match the name of any module used on the site. Custom and contributed themes belong in your site’s /sites/all/themes directory (you’ll need to make that directory), and core themes, which should not be altered, are in the /themes directory.
 
 ![](folder-org.png)
+
+
+
+---
+
+Exercise: Add a contributed theme
+Step 1: Choose a theme from drupal.org/project/themes and download it. Make sure the theme’s version compatibility matches your version of Drupal core (8.x).
+Step 2: Unpack the download and move the directory to /themes/contrib in your codebase.
+Step 3: Enable the theme and set is as the default on the Appearance page. Then configure the theme. Some themes will come with more settings you can configure than others.
