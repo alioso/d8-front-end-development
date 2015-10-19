@@ -28,4 +28,4 @@ Image files that are specific to the theme (background images, svg, sprites etc)
 
 Images that are not specific to the theme (photo placed inline in a node body, etc) should not be placed in the theme, but should be handled by the Drupal user interface.
 
-At this time
+At this time our theme structure should look like this.
