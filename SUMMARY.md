@@ -7,4 +7,5 @@
        * [Types of themes](types_of_themes.md)
        * [Exercise: Change the default administrative theme](exercise_change_the_default_administrative_theme.md)
        * [How does theming work?](how_does_theming_work.md)
+       * Exercise: Add a contributed theme
 
