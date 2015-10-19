@@ -73,3 +73,8 @@ global-styling:
       css/print.css: { media: print }
 ```
 The stylesheets have an optional scope option. They can be under a "theme", or "base" etc scope. This will define the weight/order in which they will be loaded. This is important once you get to load external libraries to get a proper order for your styles overrides.
+
+Step 6: Add CSS to your theme.
+Add two folders in your mytheme folder. A css folder and a js folder. 
+Add a styles.css and a scripts.js and place them in their newly created respective folders.  
+Go to your Home page and view your site. At this stage you could override how your site looks entirely with CSS, using the default markup of Drupal. We’ll circle back to our JS file later in this document.
