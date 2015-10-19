@@ -13,12 +13,13 @@ The theme registry stores theme information.
 Use a template folders to organize your template files
 
 **CSS files**<br />
-Files need to be listed in the .info file or included elsewhere with code. Multiple files can be created to keep things organized and modular.
+Files need to be listed in the .libraries.yml file or included elsewhere with code. Multiple files can be created to keep things organized and modular.
 Use folders to organize your CSS files as well.
 Many people use sass and a pre-processor nowadays. scss files need to follow the same  structure to keep things well organized.
 
 **JS files**<br />
-These must be included from code, typically from inside template.php
+Files need to be listed in the .libraries.yml file or included elsewhere with code as well.
+
 images
 Image files that are specific to the theme (background images, buttons, etc) should be kept within the theme in an images folder
 Images are mainly called by CSS files as backgrounds
