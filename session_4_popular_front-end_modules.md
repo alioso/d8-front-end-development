@@ -4,4 +4,13 @@ Drupal is well known for its wide and very active community, providing hundreds 
 
 Here is a list of modules aimed at facilitating the front end workflow.
 
+**[Panels](https://www.drupal.org/project/panels)**<br>
+The Panels module allows a site administrator to create customized layouts for multiple uses. At its core it is a drag and drop content manager that lets you visually design a layout and place content within that layout. Integration ...
+
+Module project
+
+Display Suite
+Posted by aspilicious on October 8, 2015 at 12:01pm
+
+Display Suite allows you to take full control over how your content is displayed using a drag and ... piece of content should be displayed in different places such as teaser lists, search results, the full ... add styles or override field settings (semantic fields). Full integration with Views and Panels Extend ...
 
