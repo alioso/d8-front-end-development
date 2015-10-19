@@ -8,7 +8,7 @@ Now you have a hands-on understanding of the anatomy of a Drupal theme.
 This is the only required file of a theme. It defines the theme name, its regions, stylesheets, and other options. Each line defines an option as a key-value pair (key = value). Values not specified will use Drupal’s default.
 
 **.theme file**<br />
-The file where you will write your preprocesses in order to override Drupal functions and modify the output.
+The file where you will write your preprocesses in order to override Drupal functions and modify the output. It is always recommended to modify the logic of your elements (if statements etc) in this fie as opposed to writing them in a template file. This allow better maintenance and collaboration. 
 
 **Template files**<br />
 These files end in *.html.twig <br />
