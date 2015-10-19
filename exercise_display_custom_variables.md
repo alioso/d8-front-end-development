@@ -1,0 +1,2 @@
+# Exercise: Display custom variables
+
