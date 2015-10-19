@@ -27,3 +27,5 @@ Go to your Home page and view your site and view source.
 * What can you tell from the look of your site about how Drupal works?
 * What was unexpected?
 * Do you need to clear the Drupal caches?
+
+**Step 3**: Define your libraries (css and JS) in your bearskin.info.yml file. This is a reference to a bearskin.libraries.yml we will be creating in step 4. Notice the indentation here: “libraries:” will be left aligned while the lines underneath will be indented by 2 spaces.
