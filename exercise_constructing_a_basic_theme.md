@@ -34,5 +34,4 @@ Go to your Home page and view your site and view source.
 libraries:
   - mytheme/global_styling
   - mytheme/global_scripts
-
 ```
