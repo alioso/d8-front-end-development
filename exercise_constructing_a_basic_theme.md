@@ -21,3 +21,4 @@ engine: twig
 
 ```
 
+**Step 2**: On the Appearance page, enable and set Bear Skin to default
