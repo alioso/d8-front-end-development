@@ -18,6 +18,7 @@ description: ‘My custom theme'
 package: Custom
 core: 8.x
 engine: twig
+screenshot: screenshot.png
 
 ```
 
