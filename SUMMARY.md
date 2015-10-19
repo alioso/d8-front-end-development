@@ -8,4 +8,5 @@
        * [Exercise: Change the default administrative theme](exercise_change_the_default_administrative_theme.md)
        * [How does theming work?](how_does_theming_work.md)
        * [Exercise: Add a contributed theme](exercise_add_a_contributed_theme.md)
+       * The chain of command
 
