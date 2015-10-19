@@ -11,6 +11,7 @@ In this example we will add a div around the page title.
  * Implements hook_preprocess_page_title
  */
 function bear_skin_preprocess_page_title(&$variables) {
+  // add a wrapper around the <h1> page title
   if (!empty($variables['title'])) {
     // elements.
     $variables['title_prefix']['wrapper'] = array(
