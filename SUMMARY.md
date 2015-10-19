@@ -16,4 +16,5 @@
    * [Exercise: Intercept and alter](exercise_intercept_and_alter.md)
    * [Review: Anatomy of a theme](review_anatomy_of_a_theme.md)
 * [Starter themes and Sub themes](starter_themes_and_sub_themes.md)
+   * Exercise: Create a bear_skin Subtheme
 
