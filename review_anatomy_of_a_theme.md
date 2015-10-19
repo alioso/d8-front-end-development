@@ -7,13 +7,13 @@ Now you have a hands-on understanding of the anatomy of a Drupal theme.
 **.info.yml**<br />
 This is the only required file of a theme. It defines the theme name, its regions, stylesheets, and other options. Each line defines an option as a key-value pair (key = value). Values not specified will use Drupal’s default.
 
-**Template files**<br />
-These files end in *.html.twig <br />
-The theme registry stores theme information.
-Use a template folders to organize your template files
-
 **.theme file**<br />
 The file where you will write your preprocesses in order to override Drupal functions and modify the output. 
+
+**Template files**<br />
+These files end in *.html.twig <br />
+The files contain the markup for a specific element. Duplicating a core file and placing it within a "template" folder in your theme will allow you to override the defaut Drupal markup.
+
 
 **CSS files**<br />
 Files need to be listed in the .libraries.yml file or included elsewhere with code. Multiple files can be created to keep things organized and modular.
