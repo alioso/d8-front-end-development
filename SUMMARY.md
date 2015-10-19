@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Session 2: Starting a new Theme](session_2_starting_a_new_theme.md)
 * [Session 1: Introduction to Drupal Theming](introduction_to_drupal_theming.md)
    * [Skills for Front end Developers in Drupal](skills_for_front_end_developers_in_drupal.md)
    * [What is the theme layer?](what_is_the_theme_layer.md)
