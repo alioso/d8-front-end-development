@@ -13,18 +13,18 @@ To get started you can copy the code from this file and start customizing it for
 
 *General utility variables:*
 
-* base_path: The base URL path of the Drupal installation. Will usually be "/" unless you have installed Drupal in a sub-directory.
-* is_front: A flag indicating if the current page is the front page.
-* logged_in: A flag indicating if the user is registered and signed in.
-* is_admin: A flag indicating if the user has permission to access administration pages.
+* **base_path**: The base URL path of the Drupal installation. Will usually be "/" unless you have installed Drupal in a sub-directory.
+* **is_front**: A flag indicating if the current page is the front page.
+* **logged_in**: A flag indicating if the user is registered and signed in.
+* **is_admin**: A flag indicating if the user has permission to access administration pages.
 
 
 *Site identity:*
 
-* front_page: The URL of the front page. Use this instead of base_path when linking to the front page. 
+* **front_page**: The URL of the front page. Use this instead of base_path when linking to the front page. 
 This includes the language domain or prefix.
-* logo: The url of the logo image, as defined in theme settings.
-* site_name: The name of the site. This is empty when displaying the site name has been disabled in the theme
+* **logo**: The url of the logo image, as defined in theme settings.
+* **site_name**: The name of the site. This is empty when displaying the site name has been disabled in the theme
  settings.
-* site_slogan: The slogan of the site. This is empty when displaying the site slogan has been disabled in theme
+* **site_slogan**: The slogan of the site. This is empty when displaying the site slogan has been disabled in theme
 settings.
