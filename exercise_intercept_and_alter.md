@@ -7,6 +7,9 @@ I'd recommend to bookmark his page as this could become a very needed resource o
 In this example we will add a div around the page title.
 
 ```
+/**
+ * Implements hook_preprocess_page_title
+ */
 function bear_skin_preprocess_page_title(&$variables) {
   if (!empty($variables['title'])) {
     // elements.
@@ -27,3 +30,13 @@ You can see in this example (and the one following) that the way to override a t
 *note: if that function were to be in a custom module, the way to override it would be to replace hook with the module name.*
 
 
+In this second example, we'll add a class to the body tag to show whether the user is logged in or logged out.
+
+```
+/**
+ * Implements hook_preprocess_html
+ */
+function bear_skin_preprocess_html(&$variables, $hook) {
+  // Add a class that tells us whether the page is viewed by an authenticated user or not.
+  $variables['attributes']['class'][] = $variables['logged_in'] ? 'logged-in' : 'not-logged-in';
+}
