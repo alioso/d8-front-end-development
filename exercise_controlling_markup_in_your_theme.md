@@ -31,4 +31,4 @@ settings.
 
 This is also how the regions are printed onto the page. Locate the ```{{ page.sidebar_first }}``` region in the page.html.twig
 
-page.html.twig will be your first template file. You can see how you can alter the markup directly around the variables. Make sure to include that file within the templates folder and clear your caches for the template to become active. There are a few Drupal 8 settings that can make your development easier while creating/editing your twig templates. 
+page.html.twig will be your first template file. You can see how you can alter the markup directly around the variables. Make sure to include that file within the templates folder and clear your caches for the template to become active. There are a few Drupal 8 settings that can make your development easier while creating/editing your twig templates. See https://www.drupal.org/node/1903374 to setup debugging, auto reload and cache options during development. And make sure these are turned off in any production environment. 
