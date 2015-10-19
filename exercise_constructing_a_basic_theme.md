@@ -72,3 +72,4 @@ global-styling:
       css/styles.css: {}
       css/print.css: { media: print }
 ```
+The stylesheets have an optional scope option. They can be under a "theme", or "base" etc scope. This will define the weight/order in which they will be loaded. This is important once you get to load external libraries to get a porper order for your styles overrides. 
