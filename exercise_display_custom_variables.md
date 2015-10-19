@@ -25,8 +25,10 @@ function bear_skin_preprocess_page(&$variables, $hook) {
 
 **Step 3**: Display your variable
 Add this line at the top of your page.html.twig
+
 ```<h2>{{ my_variable }}</h2>```
-The template.php controls variables which are made available to your tpl.php files. In addition to this custom variable here were can pre-process output, and intercept variables to alter them before they are output. 
+
+The bear_skin.theme controls variables which are made available to your .html.twig files. In addition to this custom variable here were can pre-process output, and intercept variables to alter them before they are output. 
 
 Step 3: Display your varialble in page.tpl.php
 Add this line at the bottom of  your page.tpl.php
