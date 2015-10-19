@@ -12,9 +12,9 @@ No .info file anymore. They have been replaced with Twig and Yaml (.yml) files. 
 In that text file add the following lines:
 
 ```
-name: My Theme
+name: Bear Skin
 type: theme
-description: ‘My great theme'
+description: ‘My custom theme'
 package: Custom
 core: 8.x
 engine: twig
