@@ -13,4 +13,5 @@
    * [Exercise: Constructing a basic theme](exercise_constructing_a_basic_theme.md)
    * [Exercise: Controlling markup in your theme](exercise_controlling_markup_in_your_theme.md)
    * [Exercise: Display custom variables](exercise_display_custom_variables.md)
+   * Exercise: Intercept and alter
 
