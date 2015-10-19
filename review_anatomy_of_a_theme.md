@@ -30,3 +30,4 @@ Images that are not specific to the theme (photo placed inline in a node body, e
 
 At this time our theme structure should look like this.
 
+![](structure.png)
