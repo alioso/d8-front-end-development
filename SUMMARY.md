@@ -10,4 +10,5 @@
        * [Exercise: Add a contributed theme](exercise_add_a_contributed_theme.md)
        * [The chain of command](the_chain_of_command.md)
    * [Exercise: Constructing a basic theme](exercise_constructing_a_basic_theme.md)
+* Session 2: Starting a new Theme
 
