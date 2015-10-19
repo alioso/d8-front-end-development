@@ -5,4 +5,4 @@ The easiest way to start is to copy the core page.html.twig into your theme fold
 
 The core file can be found at:
 
-mytheme > core > modules > system > templates
+bear_skin > core > modules > system > templates
