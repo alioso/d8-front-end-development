@@ -41,3 +41,6 @@ function bear_skin_preprocess_html(&$variables, $hook) {
   // Add a class that tells us whether the page is viewed by an authenticated user or not.
   $variables['attributes']['class'][] = $variables['logged_in'] ? 'logged-in' : 'not-logged-in';
 }
+```
+
+Notice the use of comments here, both preceding the function and within the function. These are coding standards in Drupal. It helps code readability, explaining which function you are targeting, and what is the goal of the override. Good commenting practices is especially important for when working with a team. Always keep in mind that you may not be the only maintaining custom code.
