@@ -28,3 +28,7 @@ This includes the language domain or prefix.
  settings.
 * **site_slogan**: The slogan of the site. This is empty when displaying the site slogan has been disabled in theme
 settings.
+
+This is also how the regions are printed onto the page. Locate the ```{{ page.sidebar_first }}``` region in the page.html.twig
+
+page.html.twig will be your first template file. You can see how you can alter the markup directly around the variables. 
