@@ -33,8 +33,8 @@ Go to your Home page and view your site and view source.
 
 ```
 libraries:
-  - mytheme/global_styling
-  - mytheme/global_scripts
+  - bear_skin/global_styling
+  - bear_skin/global_scripts
 ```
 
 **Step 4**: Add regions to your mytheme.info.yml file. These are the same as the core regions. They will work with the core page.html.twig. Notice the indentation shall remain consistent with the previous steps.
