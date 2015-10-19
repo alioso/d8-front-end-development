@@ -11,4 +11,5 @@
        * [The chain of command](the_chain_of_command.md)
 * [Session 2: Starting a new theme](session_2_starting_a_new_theme.md)
    * [Exercise: Constructing a basic theme](exercise_constructing_a_basic_theme.md)
+   * Exercise: Controlling markup in your theme
 
