@@ -13,7 +13,7 @@ The theme registry stores theme information.
 Use a template folders to organize your template files
 
 **CSS files**<br />
-Files need to be listed in the .info file or included elsewhere with code.Multiple files can be created to keep things organized and modular.
+Files need to be listed in the .info file or included elsewhere with code. Multiple files can be created to keep things organized and modular.
 Use folders to organize your CSS files as well.
 Many people use sass and a pre-processor nowadays. scss files need to follow the same  structure to keep things well organized.
 
