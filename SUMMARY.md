@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Exercise: Constructing a basic theme](exercise_constructing_a_basic_theme.md)
 * [Session 1: Introduction to Drupal Theming](introduction_to_drupal_theming.md)
    * [Skills for Front end Developers in Drupal](skills_for_front_end_developers_in_drupal.md)
    * [What is the theme layer?](what_is_the_theme_layer.md)
