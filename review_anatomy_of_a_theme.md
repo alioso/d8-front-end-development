@@ -4,24 +4,9 @@ For the purposes of this session to see how the Drupal theme system works, we cr
 
 Now you have a hands-on understanding of the anatomy of a Drupal theme.
 
-.info file
-A .info file is the only required file of a theme. It defines the theme name, its regions, stylesheets, and other options. Each line defines an option as a key-value pair (key = value). Values not specified will use Drupal’s default.
-Contents:
-regions(optional) The regions in which blocks can be placed
-regions[sidebar_first] = Sidebar first
-regions[sidebar_second] = Sidebar second
-regions[content] = Content 
-regions[header] = Header
-regions[help] = Help
-regions[highlighted] = Highlighted
+**.info.yml**<br />
+This is the only required file of a theme. It defines the theme name, its regions, stylesheets, and other options. Each line defines an option as a key-value pair (key = value). Values not specified will use Drupal’s default.
 
-stylesheets(optional) Add additional stylesheets to the theme
-stylesheets[all][] = newStyle.css
-stylesheets[print][] = print.css
-features (optional) Page elements to be toggled via configuration
-features[] = logo
-features[] = slogan
-template.php
 Additional processing and logic for a theme takes place here. It can override output of other modules via theme function overrides (see http://drupal.org/node/173880#function-override). It can define and edit variables to be used by template files with preprocess functions (see http://drupal.org/node/223430).
 template files
 These files end in *.tpl.php. Default templates include page.tpl.php, node.tpl.php, block.tpl.php and others (see http://drupal.org/node/1089656 for more). 
