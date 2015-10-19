@@ -12,4 +12,5 @@
 * [Session 2: Starting a new theme](session_2_starting_a_new_theme.md)
    * [Exercise: Constructing a basic theme](exercise_constructing_a_basic_theme.md)
    * [Exercise: Controlling markup in your theme](exercise_controlling_markup_in_your_theme.md)
+   * Display custom variables
 
