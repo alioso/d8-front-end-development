@@ -4,7 +4,15 @@ Sub-themes are just like any other theme, with one difference: They inherit the 
 
 Since we have created our own **bear_skin** starter theme, we are going to use it as a base theme for our new **bear_coat** sub theme.
 
-**Step 1**: Create a theme_coat folder and place it either within you starter theme or on the same level at 
+**Step 1**: Create a theme_coat folder and place it either: 
+
+* within you starter theme 
+
+
+mysite > core > themes > custom > bear_skin
+
+* or on the same level at
+ 
 
 mysite > core > themes > custom
 
