@@ -29,4 +29,6 @@ base theme: bear_skin
 screenshot: screenshot.png
 ```
 
-The very important line here is "base theme". This is the reference for the theme from which you'll inherit all theme files (CSS, JS, templates, .theme etc).
+The very important line here is "base theme". This is the reference for the theme from which you'll inherit all theme files (CSS, JS, templates, libraries, .theme etc).
+
+From there on, you'll proceed exactly the same of for any theme, adding 
