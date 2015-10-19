@@ -24,4 +24,4 @@ Files need to be listed in the .libraries.yml file or included elsewhere with co
 Image files that are specific to the theme (background images, svg, sprites etc) should be kept within the theme in an images folder
 
 Images are mainly called by CSS files as backgrounds
-Images that are not specific to the theme (photo placed inline in a node body, etc) should not be placed in the theme, but should be handled by Drupal and placed in its files directory
+Images that are not specific to the theme (photo placed inline in a node body, etc) should not be placed in the theme, but should be handled by Drupal and placed/uploaded in its files directory.
