@@ -43,4 +43,6 @@ function bear_skin_preprocess_html(&$variables, $hook) {
 }
 ```
 
-Notice the use of **code commenting** here, both preceding the function and within the function. These are coding standards in Drupal. It helps code readability by explaining which function you are targeting, and what is the goal of the override. Good commenting practices is especially important for when working with a team. Always keep in mind that you may not be the only maintaining the custom code you wrote.
+Notice the use of **code commenting** here, both preceding the function and within the function. These are coding standards in Drupal. It helps code readability by explaining which function you are targeting, and what is the goal of the override.
+
+Good commenting practices is especially important for when working with a team. Always keep in mind that you may not be the only maintaining the custom code you wrote.
