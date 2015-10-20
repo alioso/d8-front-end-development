@@ -18,8 +18,8 @@ Drupal theme development crosses many disciplines. The following charts - borrow
 | PHP coding for theming | This involves the basics you'd need to know of PHP before learning Drupal theming. |
 | Front end development | This includes developing base themes, writing layout plugins to contrib modules, optimizing front end performance, declaring new renderable elements, developing for modules like Skinr, using AJAX, AHAH and other techniques for creating good user experience. Writing theme functions, preprocess functions, form_alters, adding/changing theme settings and using the show/hide functions. |
 | HTML5 web apps | Being able to use HTML5 technlologies to build app-like pages for mobile browsers, possibly to embed them as downloaded apps with PhoneGap for instance. |
-| HTML | Advanced |
-| CSS/Sass | Advanced |
-| Drupal Site Building | Intermediate |
-| PHP | Beginner |
-| Twig | Beginner |
+| Basic Drupal coding skills | This involves PHP skills, knowing Drupal coding standards – including writing well-commented code, using hooks and using Drupal's API to write secure code. It also includes using Drush. |
+| Web services and native movile apps | This includes using Services and REST, integrating with external APIs, and being able to expose data to consumers like mobile applications. |
+| Basic performance analysis/optimization | This involves things like setting up caching rules, being aware of performance impacts of complex architecture, etc. |
+| Site maintenance | Knowing how to update modules, doing backups, watching for security releases, etc. |
+| Advanced performance optimizing | This involves dealing with load times, memory usage, slow queries, identifying memory hogs, setting up reverse proxy caching, changing cache layers, etc. |
