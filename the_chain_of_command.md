@@ -23,5 +23,4 @@ It is important to use each language for its intended purpose, and to follow the
 
 
 Can you just change a setting in a module or permissions?
-Can you accomplish your goal through CSS?
-Just replace a string? See String overrides module http://drupal.org/project/stringoverrides
+Can you accomplish your goal through CSS? Can it be done with PHP prior to using Javascript?
