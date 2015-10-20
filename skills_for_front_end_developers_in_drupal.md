@@ -1,6 +1,6 @@
 # Skills for Front end Developers in Drupal
 
-Drupal theme development crosses many disciplines. The following charts - borrowed Drupal.org - summarize the needed recommended skills for any developer planning to create and develop a Drupal 8 theme. 
+Drupal theme development crosses many disciplines. The following charts - borrowed from [Drupal.org](https://groups.drupal.org/node/172434) - summarize the needed recommended skills for any developer planning to create and develop a Drupal 8 theme. While it is not necessary to master all these disciplines, you are likely to encounter any situation requiring some basic understanding of any of the skills below.  
 
 | Skill Set | Description |
 | -- | -- |
@@ -23,3 +23,4 @@ Drupal theme development crosses many disciplines. The following charts - borrow
 | Basic performance analysis/optimization | This involves things like setting up caching rules, being aware of performance impacts of complex architecture, etc. |
 | Site maintenance | Knowing how to update modules, doing backups, watching for security releases, etc. |
 | Advanced performance optimizing | This involves dealing with load times, memory usage, slow queries, identifying memory hogs, setting up reverse proxy caching, changing cache layers, etc. |
+| Git skills | While not specific to Drupal, a good knowledge of basic Git workflow is necessary for Drupal development |
