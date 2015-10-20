@@ -44,7 +44,7 @@ stylesheets-remove:
   - core/modules/system/css/components/messages.theme.css
 ```
 
-Notice that a full absolute path from the site root is needed here. 
+Notice that a full absolute path from the site root is needed for that purpose. 
 
 **Step 4**: Add regions to your mytheme.info.yml file. These are the same as the core regions. They will work with the core page.html.twig. Notice the indentation shall remain consistent with the previous steps.
 
