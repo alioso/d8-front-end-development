@@ -22,5 +22,6 @@ It is important to use each language for its intended purpose, and to follow the
 ### Before you do major changes to your theme, check:
 
 
-Can you just change a setting in a module or permissions?
-Can you accomplish your goal through CSS? Can it be done with PHP prior to using Javascript?
+* Can you just change a setting in a module or permissions?
+* Can you accomplish your goal through CSS? 
+* Can it be done with PHP prior to using Javascript?
