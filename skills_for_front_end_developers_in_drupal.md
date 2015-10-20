@@ -9,7 +9,7 @@ Drupal theme development crosses many disciplines. The following charts - borrow
 | [Active community contribution](https://groups.drupal.org/node/189334) | Organizing Drupal meetups, coordinating or actively contributing to community projects, maintaining drupal.org (code) projects, etc. |
 | [Content creation and management](https://groups.drupal.org/node/186059) |  Includes managing comments, and scheduling publishing (where applicable), importing content. |
 | [Simple site configuration](Simple site configuration) | Includes managing menus, users, blocks, front page settings, etc. |
-| Advanced content construction | This includes managing content and presentation settings on the site, for example by configuring Panels, Diaplay Suite, Views and more. |
+| Advanced content construction | This includes managing content and presentation settings on the site, for example by configuring Panels, Display Suite, Views and more. |
 | [Basic site building](Basic site building) | Includes installing Drupal, configuring fields, creating simple views, installing and setting up fairly simple modules (such as References, Scheduler and Automatic Nodetitles). It also includes being able to evaluate contrib modules. |
 | [Advanced site building](https://groups.drupal.org/node/186069) | Includes complex Views configuration, and complex modules such as Page manager, Rules, Organic Groups and access control module etc |
 | [Configuration export](https://groups.drupal.org/node/189129) | Taking Drupal configuration and turning it into exportable, importable and version-controllable code. |
