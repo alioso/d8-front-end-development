@@ -85,5 +85,6 @@ The stylesheets have an optional scope option. They can be under a "theme", or "
 
 **Step 6**: Add CSS to your theme.
 Add two folders in your mytheme folder. A css folder and a js folder. 
-Add a styles.css and a scripts.js and place them in their newly created respective folders.  
+Add a styles.css and a scripts.js and place them in their newly created respective folders.
+
 Go to your Home page and view your site. At this stage you could override how your site looks entirely with CSS, using the default markup of Drupal. We’ll circle back to our JS file later in this document.
