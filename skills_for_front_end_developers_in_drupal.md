@@ -7,7 +7,7 @@ Drupal theme development crosses many disciplines. The following charts - borrow
 | [Basic drupal.org skills](https://groups.drupal.org/node/189299) | Having a user account, being able to search issue queues and reporting bugs etc |
 | [Community participation](https://groups.drupal.org/node/189304) | Includes taking part in discussions, attending in Drupal meetups, etc. |
 | [Active community contribution](https://groups.drupal.org/node/189334) | Organizing Drupal meetups, coordinating or actively contributing to community projects, maintaining drupal.org (code) projects, etc. |
-| [Content creation and management](https://groups.drupal.org/node/186059) | Also includes managing comments, and scheduling publishing (where applicable), and so on. |
+| [Content creation and management](https://groups.drupal.org/node/186059) |  Includes managing comments, and scheduling publishing (where applicable), importing content. |
 | [Simple site configuration](Simple site configuration) | Includes managing menus, users, blocks, front page settings, etc. Changing existing settings, but not creating new site functionality. |
 | Advanced content construction | This includes managing content and presentation settings on the site, for example by configuring Panels, Diaplay Suite, Views and more. |
 | [Basic site building](Basic site building) | Includes installing Drupal, configuring fields, creating simple views, installing and setting up fairly simple modules (such as References, Scheduler and Automatic Nodetitles). It also includes being able to evaluate contrib modules. |
