@@ -26,10 +26,9 @@ $string = "My String with this & Character";
 $safe_string = Html::escape($string);
 return $safe_string;
 ```
-Don't forget to add your include at the top of your .theme file:
+Don't forget to add your include at the top of your .theme file, right after the opening ```<?php``` tag:
 
 ```
-<?php
 use Drupal\Component\Utility\Html;
 ```
 
