@@ -18,4 +18,5 @@
 * [Session 3: Starter themes and Sub themes](starter_themes_and_sub_themes.md)
    * [Exercise: Create a bear_skin Subtheme](exercise_create_a_bearskin_subtheme.md)
 * [Session 4: Popular Front-End Modules](session_4_popular_front-end_modules.md)
+* Session 5: Front-End Security and Perfomance
 
