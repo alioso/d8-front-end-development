@@ -10,3 +10,6 @@ The Panels module allows a site administrator to create customized layouts for m
 **[Display Suite](https://www.drupal.org/project/ds)**<br>
 Display Suite allows you to take full control over how your content is displayed using a drag and ... piece of content should be displayed in different places such as teaser lists, search results, the full ... add styles or override field settings (semantic fields).
 
+**[Views Slideshow](https://www.drupal.org/project/views_slideshow)**<br>
+Views Slideshow can be used to create a slideshow of any content (not just images) that can appear in a View. Powered by jQuery, it is heavily customizable: you may choose slideshow settings for each View you create.
+
