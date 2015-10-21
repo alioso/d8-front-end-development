@@ -13,3 +13,5 @@ Display Suite allows you to take full control over how your content is displayed
 **[Views Slideshow](https://www.drupal.org/project/views_slideshow)**<br>
 Views Slideshow can be used to create a slideshow of any content (not just images) that can appear in a View. Powered by jQuery, it is heavily customizable: you may choose slideshow settings for each View you create.
 
+**[Colorbox](https://www.drupal.org/project/colorbox)**<br>
+Colorbox is a light-weight customizable lightbox plugin for jQuery. This module allows for integration of Colorbox into Drupal. Images, iframed or inline content etc. can be displayed in a overlay above the current page.
