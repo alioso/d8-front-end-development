@@ -21,6 +21,11 @@ This method escapes HTML for sanitization purposes by replacing the following sp
 
 Special characters that have already been escaped will be double-escaped (for example, ```&lt;``` becomes ```&amp;lt;```), and invalid UTF-8 encoding will be converted to the Unicode replacement character ("�").
 
+```
+
+```
+
+
 check_plain: Removes markup from plain text. Also ensures that special characters like quotes, ampersands and angle brackets will properly display in the browser.
 drupal_set_title($node->title);			// Incorrect
 drupal_set_title(check_plain($node->title)); 	// Correct
