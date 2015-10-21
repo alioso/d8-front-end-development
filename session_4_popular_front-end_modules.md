@@ -22,4 +22,7 @@ Nice Menus enables drop-down/right/left expandable menus. It uses only CSS for m
 **[Responsive Menus](https://www.drupal.org/project/responsive_menus)**<br>
 Responsify your menus! Just give me a CSS/jQuery style selector of your menu and I will make it mobile friendly.
 
+**[@font-your-face](https://www.drupal.org/project/fontyourface)**<br>
+@font-your-face provides an administrative interface for browsing and applying web fonts (using CSS @font-face, supported in all popular browsers) from a variety of sources.
+
 
