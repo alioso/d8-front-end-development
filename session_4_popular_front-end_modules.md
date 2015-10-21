@@ -18,3 +18,8 @@ Colorbox is a light-weight customizable lightbox plugin for jQuery. This module 
 
 **[Nice Menus](https://www.drupal.org/project/nice_menus)**<br>
 Nice Menus enables drop-down/right/left expandable menus. It uses only CSS for most browsers, with minimal Javascript for IE6.
+
+**[Responsive Menus](https://www.drupal.org/project/responsive_menus)**<br>
+Responsify your menus! Just give me a CSS/jQuery style selector of your menu and I will make it mobile friendly.
+
+
