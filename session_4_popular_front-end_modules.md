@@ -15,3 +15,6 @@ Views Slideshow can be used to create a slideshow of any content (not just image
 
 **[Colorbox](https://www.drupal.org/project/colorbox)**<br>
 Colorbox is a light-weight customizable lightbox plugin for jQuery. This module allows for integration of Colorbox into Drupal. Images, iframed or inline content etc. can be displayed in a overlay above the current page.
+
+**[Nice Menus](https://www.drupal.org/project/nice_menus)**<br>
+Nice Menus enables drop-down/right/left expandable menus. It uses only CSS for most browsers, with minimal Javascript for IE6.
