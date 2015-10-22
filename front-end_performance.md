@@ -11,3 +11,4 @@ go to: yoursite/admin/config/development/performance and enable the aggregation 
 
 ### Optimize your Images
 
+**Image styles**: Image styles (in core) processes and manipulate images without manually managing copies of each image. Images can be resized and cropped according to a preset, and are generated on demand. Providing the proper size image is a performance improvement, and the correct alternative to resizing images in CSS.
