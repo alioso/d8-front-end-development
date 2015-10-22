@@ -11,7 +11,7 @@ go to: yoursite/admin/config/development/performance and enable the aggregation 
 
 ### Optimize your Images
 
-**Image styles**<br>Image styles (in core, go to admin/config/media/image-styles) processes and manipulate images without manually managing copies of each image. Images can be resized and cropped according to a preset, and are generated on demand. Providing the proper size image is a performance improvement, and the correct alternative to resizing images in CSS. 
+**Image styles**<br>Image styles (in core, go to admin/config/media/image-styles) processes and manipulate images without manually managing copies of each image. Images can be resized and cropped according to a preset, and are generated on demand. Providing the proper size image is a performance improvement, and the correct alternative to resizing images in CSS. Also define the styles for the Responsive Images module (see below).
 
 **Responsive Images**<br>
 In conjunction the breakpoints previously defined in bear_skin.breakpoints.yml, let's enable the Responsive Images module (shipped with core but not enabled by defaut) and configure it. After enabling it, go to admin/config/media/responsive-image-style and modify the existing configuration or add your own responsive styles.
