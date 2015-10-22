@@ -7,6 +7,13 @@ Cross-site scripting attacks can occur when user-generated text is output into t
 
 Drupal has functions for sanitizing text before display. The religious use of these functions is the key to XSS prevention.
 
+
+```
+$string = "My String with this & Character";
+$filtered_string = check_markup($string);
+print $filtered_string;
+```
+
 **Html::escape**<br>
 Escapes text by converting special characters to HTML entities.
 
