@@ -7,3 +7,6 @@ Views templates are very similar to core templates, and have their own naming co
 Views provides several default views as examples. One example is Recent Comments (comments_recent), which creates both a block displaying the most recent comments with a link to the node. This view is enabled by default. You need to have the comment module enabled and to have some comments on the site.
 
 
+**Step 2**: Explore the possible templates
+
+To help pick from the various possibilities of a views template name, Views provides a section titled “Theme: Information” within “Advanced”.  Notice that there are different templates for display, style, row style and fields.
