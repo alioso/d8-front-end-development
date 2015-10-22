@@ -13,9 +13,9 @@ Because filters can inject JavaScript or execute PHP code, security is vital her
 Note: this function should only be used when filtering text for use elsewhere than on a rendered HTML page. If this is part of a HTML page, then a renderable array with a #type 'processed_text' element should be used instead of this, because that will allow cacheability metadata to be set and bubbled up and attachments to be associated (assets, placeholders, etc.). In other words: if you are presenting the filtered text in a HTML page, the only way this will be presented correctly, is by using the 'processed_text' element.
 
 ```
-$string = "My String with this & Character";
+$string = "My String";
 $filtered_string = check_markup($string);
-print $filtered_string;
+return $string;
 ```
 
 **Html::escape**<br>
