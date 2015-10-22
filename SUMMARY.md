@@ -21,4 +21,5 @@
 * Session 5: Front-End Security and Perfomance
    * [Sanitizing output](sanitizing_output.md)
    * [Front-end Performance](front-end_performance.md)
+* Theming Views and Fields
 
