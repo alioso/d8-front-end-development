@@ -20,4 +20,5 @@
 * [Session 4: Popular Front-End Modules](session_4_popular_front-end_modules.md)
 * Session 5: Front-End Security and Perfomance
    * [Sanitizing output](sanitizing_output.md)
+   * Front-end Performance
 
