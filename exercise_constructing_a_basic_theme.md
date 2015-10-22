@@ -22,12 +22,16 @@ screenshot: screenshot.png
 
 ```
 
+---
+
 **Step 2**: On the Appearance page, enable and set Bear Skin to default
 
 Go to your Home page and view your site and view source.
 * What can you tell from the look of your site about how Drupal works?
 * What was unexpected?
 * Do you need to clear the Drupal caches?
+* 
+---
 
 **Step 3**: Define your libraries (css and JS) in your bearskin.info.yml file. This is a reference to a bearskin.libraries.yml we will be creating in step 5. Notice the indentation here: “libraries:” will be left aligned while the lines underneath will be indented by 2 spaces.
 
@@ -46,6 +50,8 @@ stylesheets-remove:
 
 Notice that a full absolute path from the site root is needed for that purpose. 
 
+---
+
 **Step 4**: Add regions to your bear_skin.info.yml file. These are the same as the core regions. They will work with the core page.html.twig. Notice the indentation should remain consistent with the previous steps.
 
 ```
@@ -59,6 +65,8 @@ regions:
   sidebar_second: 'Second sidebar'
   footer: ‘Footer'
 ```
+
+---
 
 **Step 5**: Create a bear_skin.libraries.yml in the theme root folder. This is where we will place the code that will point to our css and JS files. Notice that we include here some libraries that Drupal 8 **does not include by default** (jQuery etc).
 
@@ -83,7 +91,25 @@ global-styling:
 ```
 The stylesheets have an optional scope option. They can be under a "theme", or "base" etc scope. This will define the weight/order in which they will be loaded. This is important once you get to load external libraries to get a proper order for your styles overrides.
 
-**Step 6**: Add CSS to your theme.
+---
+
+**Step 6**: Define your breakpoints
+
+A breakpoint consists of a label and a media query. Media queries are a formal way to encode breakpoints. For instance, a width breakpoint at 40em is written as the media query '(min-width: 40em)'. Breakpoints are really just media queries with some additional metadata, such as name and multiplier information.
+
+Themes and modules can define breakpoints by creating a config file called myThemeOrModule.breakpoints.yml, where myThemeOrModule is the name of your theme or module.
+
+Each entry in this file defines one breakpoint, consisting of a machine name, by which the breakpoint entry is uniquely identified e.g. bartik.mobile, and it's children defining the breakpoint's properties:
+
+label - A human readable label for the breakpoint.
+mediaQuery - Media query text proper ('all and (min-width: 851px)'.
+weight - Positional weight (order) for the breakpoint.
+multipliers - Supported pixel resolution multipliers.
+Note: The order in which breakpoints are arranged through their weight value is extremely important. Breakpoints with the smallest min-width should have the lowest weight, while breakpoints with the largest min-width should have a larger weight value. By default, modules will order breakpoints from smallest to largest. However modules can reverse that order if necessary: for example the Responsive Image module takes care of re-ordering breakpoints from largest to smallest based on the weight value.
+
+---
+
+**Step 7**: Add CSS to your theme.
 Add two folders in your mytheme folder. A css folder and a js folder. 
 Add a styles.css and a scripts.js and place them in their newly created respective folders.
 
