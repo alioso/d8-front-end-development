@@ -7,6 +7,10 @@ Cross-site scripting attacks can occur when user-generated text is output into t
 
 Drupal has functions for sanitizing text before display. The religious use of these functions is the key to XSS prevention.
 
+**check_markup**<br>
+Because filters can inject JavaScript or execute PHP code, security is vital here. When a user supplies a text format, you should validate it using $format->access() before accepting/using it. This is normally done in the validation stage of the Form API. You should for example never make a preview of content in a disallowed format.
+
+Note: this function should only be used when filtering text for use elsewhere than on a rendered HTML page. If this is part of a HTML page, then a renderable array with a #type 'processed_text' element should be used instead of this, because that will allow cacheability metadata to be set and bubbled up and attachments to be associated (assets, placeholders, etc.). In other words: if you are presenting the filtered text in a HTML page, the only way this will be presented correctly, is by using the 'processed_text' element.
 
 ```
 $string = "My String with this & Character";
