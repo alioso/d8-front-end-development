@@ -7,6 +7,12 @@ Cross-site scripting attacks can occur when user-generated text is output into t
 
 Drupal has functions for sanitizing text before display. The religious use of these functions is the key to XSS prevention.
 
+
+
+---
+
+
+
 **check_markup**<br>
 Because filters can inject JavaScript or execute PHP code, security is vital here. When a user supplies a text format, you should validate it using $format->access() before accepting/using it. This is normally done in the validation stage of the Form API. You should for example never make a preview of content in a disallowed format.
 
@@ -17,6 +23,9 @@ $string = "My String";
 $filtered_string = check_markup($string);
 return $string;
 ```
+
+---
+
 
 **Html::escape**<br>
 Escapes text by converting special characters to HTML entities.
@@ -43,6 +52,8 @@ Don't forget to add your include at the top of your .theme file, right after the
 use Drupal\Component\Utility\Html;
 ```
 
+---
+
 **t**<br>
 Translates a string to the current language or to a given language.
 
@@ -54,11 +65,16 @@ $filtered_string = t($string);
 return $string;
 ```
 
-check_plain: Removes markup from plain text. Also ensures that special characters like quotes, ampersands and angle brackets will properly display in the browser.
-drupal_set_title($node->title);			// Incorrect
-drupal_set_title(check_plain($node->title)); 	// Correct
-check_markup: Runs rich text through one of the formats configured on the site. Formats contain filters for changing the text. For example, the default Filtered HTML format contains filters that include converting URLs into links and replacing line breaks with <p> and <br /> tags. 
-return check_markup($text, ‘filtered_html’);
+---
 
-filter_xss: Removes javascript from URLs, sanitizes dangerous code, ensures that HTML tags and attributes are well-formed, and removes all HTML tags except those specified. Use this when it doesn’t make sense to have a specific format applied.
-return filter_xss($text, $allowed_tags = array(‘ul’, ‘ol’, ‘li’));
+**Xss::filter**<br>
+Removes characters and constructs that can trick browsers.
+Makes sure all HTML entities are well-formed.
+Makes sure all HTML tags and attributes are well-formed.
+Makes sure no HTML tags contain URLs with a disallowed protocol (e.g. javascript:).
+
+```
+$string = "<div>My string with unallowed div tag</div>";
+$filtered_string = Xss::filter($string);
+return $filtered_string;
+```
