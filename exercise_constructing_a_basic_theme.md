@@ -105,7 +105,8 @@ Each entry in this file defines one breakpoint, consisting of a machine name, by
 * **mediaQuery** - Media query text proper ('all and (min-width: 800px)'.
 * **weight** - Positional weight (order) for the breakpoint.<br>
 * **multipliers** - Supported pixel resolution multipliers.
-Note: The order in which breakpoints are arranged through their weight value is extremely important. Breakpoints with the smallest min-width should have the lowest weight, while breakpoints with the largest min-width should have a larger weight value. By default, modules will order breakpoints from smallest to largest. However modules can reverse that order if necessary: for example the Responsive Image module takes care of re-ordering breakpoints from largest to smallest based on the weight value.
+
+*Note*: The order in which breakpoints are arranged through their weight value is extremely important. **Breakpoints with the smallest min-width should have the lowest weight, while breakpoints with the largest min-width should have a larger weight value**. By default, modules will order breakpoints from smallest to largest. However modules can reverse that order if necessary: for example the Responsive Image module takes care of re-ordering breakpoints from largest to smallest based on the weight value.
 
 ---
 
