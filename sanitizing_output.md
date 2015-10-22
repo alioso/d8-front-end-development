@@ -43,6 +43,17 @@ Don't forget to add your include at the top of your .theme file, right after the
 use Drupal\Component\Utility\Html;
 ```
 
+**t**<br>
+Translates a string to the current language or to a given language.
+
+The t() function serves two purposes. First, at run-time it translates user-visible text into the appropriate language. Second, various mechanisms that figure out what text needs to be translated work off t() -- the text inside t() calls is added to the database of strings to be translated. These strings are expected to be in English, so the first argument should always be in English. To enable a fully-translatable site, it is important that all human-readable text that will be displayed on the site or sent to a user is passed through the t() function, or a related function. See the [Localization API](https://www.drupal.org/node/322729) pages for more information, including recommendations on how to break up or not break up strings for translation.
+
+```
+$string = "My translatable string";
+$filtered_string = t($string);
+return $string;
+```
+
 check_plain: Removes markup from plain text. Also ensures that special characters like quotes, ampersands and angle brackets will properly display in the browser.
 drupal_set_title($node->title);			// Incorrect
 drupal_set_title(check_plain($node->title)); 	// Correct
