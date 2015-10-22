@@ -22,5 +22,5 @@
    * [Sanitizing output](sanitizing_output.md)
    * [Front-end Performance](front-end_performance.md)
 * Theming Views and Fields
-   * Overriding Views Templates
+   * [Overriding Views Templates](overriding_views_templates.md)
 
