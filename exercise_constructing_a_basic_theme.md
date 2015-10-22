@@ -121,9 +121,9 @@ bear_skin.narrow:
   weight: 1
   multipliers:
     - 1x
-bartik.wide:
+bear_skin.wide:
   label: wide
-  mediaQuery: 'all and (min-width: 851px)'
+  mediaQuery: 'all and (min-width: 1000px)'
   weight: 2
   multipliers:
     - 1x
