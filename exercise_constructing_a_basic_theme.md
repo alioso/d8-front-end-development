@@ -102,11 +102,32 @@ Themes and modules can define breakpoints by creating a config file called myThe
 Each entry in this file defines one breakpoint, consisting of a machine name, by which the breakpoint entry is uniquely identified e.g. bear_skin.mobile, and it's children defining the breakpoint's properties:
 
 * **label** - A human readable label for the breakpoint.
-* **mediaQuery** - Media query text proper ('all and (min-width: 800px)'.
+* **mediaQuery** - Media query text proper ('all and (min-width: 1000px)'.
 * **weight** - Positional weight (order) for the breakpoint.<br>
 * **multipliers** - Supported pixel resolution multipliers.
 
 *Note*: The order in which breakpoints are arranged through their weight value is extremely important. **Breakpoints with the smallest min-width should have the lowest weight, while breakpoints with the largest min-width should have a larger weight value**. By default, modules will order breakpoints from smallest to largest. However modules can reverse that order if necessary: for example the Responsive Image module takes care of re-ordering breakpoints from largest to smallest based on the weight value.
+
+```
+bear_skin.mobile:
+  label: mobile
+  mediaQuery: ''
+  weight: 0
+  multipliers:
+    - 1x
+bear_skin.narrow:
+  label: narrow
+  mediaQuery: 'all and (min-width: 400px) and (max-width: 1000px)'
+  weight: 1
+  multipliers:
+    - 1x
+bartik.wide:
+  label: wide
+  mediaQuery: 'all and (min-width: 851px)'
+  weight: 2
+  multipliers:
+    - 1x
+```
 
 ---
 
