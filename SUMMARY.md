@@ -23,5 +23,5 @@
    * [Front-end Performance](front-end_performance.md)
 * Theming Views and Fields
    * [Exercise: Overriding Views Templates](overriding_views_templates.md)
-   * Exercise: Customizing a Field output
+   * [Exercise: Customizing a Field output](exercise_customizing_a_field_output.md)
 
