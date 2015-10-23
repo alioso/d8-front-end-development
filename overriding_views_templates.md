@@ -32,4 +32,6 @@ Create your block--views-block--comments-recent-block-1.html.twig and place it i
 
 **Clear your caches!**
 
-From there you can make modifications to you template (adding classes, tags, modifying markup etc). As we mentioned before, if these changes target the logic of the element, the Drupal way is to override it with a preprocess function, not directly inside the template file. 
+From there you can make modifications to you template (adding classes, tags, modifying markup etc). 
+
+***Note***: as we mentioned before, if these changes target the logic of the element, the Drupal way is to override it with a preprocess function, not directly inside the template file. 
