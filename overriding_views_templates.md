@@ -18,3 +18,14 @@ These suggestions appear in order of the override granularity. ex: block--views.
 Create your block--views-block--comments-recent-block-1.html.twig and place it in the templates folder. Grab the block.html.twig default code and paste it in there.
 
 ```
+<div{{ attributes }}>
+  {{ title_prefix }}
+  {% if label %}
+    <h2{{ title_attributes }}>{{ label }}</h2>
+  {% endif %}
+  {{ title_suffix }}
+  {% block content %}
+    {{ content }}
+  {% endblock %}
+</div>
+```
