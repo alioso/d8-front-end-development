@@ -30,3 +30,5 @@ Create your block--views-block--comments-recent-block-1.html.twig and place it i
 </div>
 ```
 
+**Clear your caches!**
+
