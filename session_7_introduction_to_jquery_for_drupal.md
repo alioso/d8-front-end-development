@@ -9,8 +9,8 @@ From [Working with JavaScript and jQuery](https://www.drupal.org/node/171213).
 
 "Using JavaScript adds dynamic presentation effects to a theme. In addition to custom JavaScript files many Drupal developers find jQuery useful. jQuery is a lightweight JavaScript library which is built into Drupal. jQuery contains all the common DOM, event, effects, and Ajax functions.
 
-More comprehensive information on the JavaScript APIs and the use of JavaScript in Drupal can be found in the Developer Guide.
+More comprehensive information on the JavaScript APIs and the use of JavaScript in Drupal can be found in the [Developer Guide](https://drupal.org/node/121997).
 
-For more information about jQuery visit the jQuery API and Documentation site."
+For more information about jQuery visit the [jQuery API](http://api.jquery.com/) and [Documentation](http://docs.jquery.com/) site."
 
 
