@@ -15,10 +15,6 @@ This functions exactly like Drupal 7. Add a ```theme-settings.php``` in your the
  *   A keyed array containing the current state of the form.
  */
 function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_id = NULL) {
-  // Work-around for a core bug affecting admin themes. See issue #943212.
-  if (isset($form_id)) {
-    return;
-  }
   $form['bear_options'] = array(
     '#type' => 'fieldset',
     '#title' => t('Bear Theme Additional Options'),
@@ -46,3 +42,5 @@ function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_
   );
 }
 ```
+
+Let's take a look 
