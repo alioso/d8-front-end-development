@@ -117,4 +117,4 @@ function bear_skin_preprocess_html(&$variables, $hook) {
 }
 ```
 
-in this 
+In this 
