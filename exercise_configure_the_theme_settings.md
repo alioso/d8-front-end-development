@@ -130,3 +130,15 @@ if (theme_get_setting('main_layout') == 'fixed') {
 }
 
 ```
+**and**
+
+```
+// if the sticky footer option is selected, set a class
+if (theme_get_setting('sticky_footer')) {
+  $variables['attributes']['class'][] = 'with-sticky-footer'; // working
+}
+```
+
+*Notice that still use comments to explain what we are doing.*
+
+For both functions we add a ```$variables['attributes']['class'][] = "something"``` depending on the theme setting value. We can add as many options as possible to leverage theming options through the UI and help a user configure options easily. 
