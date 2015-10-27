@@ -5,4 +5,3 @@ The new Twig syntax is concise, easy to learn, and easy to read. That is a great
 Additionally, Twig offers powerful sandboxing, which allows restricted execution of untrusted code for safe integration with 3rd party themes and components.
 
 In this session we will get familiar with the various ways we can comply to the "Drupal Way" to write secure and compliant code. We are also going to look at making our site faster as well with the help of core modules.
-
