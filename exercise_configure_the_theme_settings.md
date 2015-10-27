@@ -21,6 +21,7 @@ function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_
 This function overrides the form at ```/admin/appearance/settings/bear_skin```. Next we will populate that function with custom options.
 
 
+**Step 3:**<br>
 
 
 
