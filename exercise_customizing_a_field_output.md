@@ -25,3 +25,4 @@ function bear_skin_preprocess_node(&$variables) {
 
 ```
 
+In this example we define a $node variable by getting the node attributes, which will allow us to store the author field value in a separate variable "author" if the field contains data. 
