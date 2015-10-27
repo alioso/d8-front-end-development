@@ -40,6 +40,29 @@ Next we will place our available options within that fieldset.
 **Step 4:**<br>
 In this step we are going to add two options. One to choose between two layouts (radio button), the other to set a sticky footer or not.
 
+```
+// create an option to choose between fixed and fluid layouts
+  $form['bear_options']['main_layout'] = array(
+    '#type' => 'radios',
+    '#title' => t('General Layout'),
+    '#description' => t('This option will allow you to pick between a full width (fluid) layout (for background, banners etc, content still has max width) and fixed layout.'),
+    '#options' => array(
+      'fluid' => t('Fluid'),
+      'fixed' => t('Fixed'),
+    ),
+    '#default_value' => theme_get_setting('main_layout'),
+  );
+
+  // create an option for sticky footers
+  $form['bear_options']['sticky_footer'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Add sticky footer.'),
+    '#description' => t('More info about sticky footer <a href="http://www.cssstickyfooter.com/" target="_blank">here</a><br />
+      You can change these settings in the the sticky-footer.css file located in the css folder.'),
+    '#default_value' => theme_get_setting('sticky_footer'),
+  );
+```
+
 
 ```
 <?php
