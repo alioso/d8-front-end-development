@@ -37,6 +37,43 @@ Create a ```node--article.html.twig``` and paste the following code, initially t
 
 ```
 
-
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+  ]
+%}
+{{ attach_library('classy/node') }}
+<article{{ attributes.addClass(classes) }}>
+  <header>
+    {{ title_prefix }}
+    {% if not page %}
+      <h2{{ title_attributes.addClass('node__title') }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+    {% endif %}
+    {{ title_suffix }}
+    {% if display_submitted %}
+      <div class="node__meta">
+        {{ author_picture }}
+        <span{{ author_attributes }}>
+          {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+        </span>
+        {{ metadata }}
+      </div>
+    {% endif %}
+  </header>
+  <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
+    <div style="padding: 30px; margin: 30px 0; border: 1px solid #ccc; color#fff;">{{ author }}</div>
+    {{ content }}
+  </div>
+</article>
 
 ```
+
+The line we added here is ```<div style="padding: 30px; margin: 30px 0; border: 1px solid #ccc; color#fff;">{{ author }}</div>``` which passes the variable we defined in ```bear_skin.theme```. 
