@@ -69,7 +69,7 @@ Save your files and clear your caches. Now you should be able to see these new o
 
 ---
 
-**Step 5:***<br>
+**Step 5:**<br>
 
 
 
