@@ -24,5 +24,5 @@
 * Session 6: Theming Views and Fields
    * [Exercise: Overriding Views Templates](overriding_views_templates.md)
    * [Exercise: Customizing a Field output](exercise_customizing_a_field_output.md)
-* Session 7: Introduction to jQuery for Drupal
+* [Session 7: Introduction to jQuery for Drupal](session_7_introduction_to_jquery_for_drupal.md)
 
