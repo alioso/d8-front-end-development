@@ -19,9 +19,11 @@ In bear_skin.theme, find or add ```bear_skin_preprocess_node``` so we end up wit
 function bear_skin_preprocess_node(&$variables) {
   $element = $variables['element'];
   $node = \Drupal::request()->attributes->get('node');
-  //kint($variables); 
-  if (!empty($node->field_author->value)) {
-    $variables['author'] = t("Written by ") . $node->field_author->value;
+  if ($variables['node']->getType() === 'article') {
+    //kint($variables); 
+    if (!empty($node->field_author->value)) {
+      $variables['author'] = t("Written by ") . $node->field_author->value;
+    }
   }
 }
 
