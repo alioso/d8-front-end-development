@@ -63,7 +63,7 @@ In this step we are going to add two options. One to choose between two layouts 
   );
 ```
 
-The code here is pretty straight forward. 
+The code here is pretty straight forward. The key is setting the ```#default_value``` as ```theme_get_setting()``` to pass make these options available for our preprocess functions. 
 
 
 ```
