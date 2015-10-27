@@ -67,6 +67,9 @@ The code here is pretty straight forward. The key is setting the ```#default_val
 
 Save your files and clear your caches. Now you should be able to see these new options at ```/admin/appearance/settings/bear_skin```. However, while these options will get stored on save, they do nothing on their own, simply because we have not added any related function yet.
 
+---
+
+**Step 5:***<br>
 
 
 
