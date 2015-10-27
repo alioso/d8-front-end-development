@@ -67,15 +67,7 @@ The code here is pretty straight forward. The key is setting the ```#default_val
 
 Save your files and clear your caches. Now you should be able to see these new options at ```/admin/appearance/settings/bear_skin```. However, while these options will get stored on save, they do nothing on their own, simply because we have not added any related function yet.
 
----
-
-**Step 5:**<br>
-In ```bear_skin.theme``` let's modify or add (if you have not already have one - duplicate functions will break your site.<br>
-```
-function bear_skin_preprocess_html(&$variables, $hook) {
-}
-```
-
+Your final theme-settings.php should look something like that:
 
 ```
 <?php
@@ -115,3 +107,14 @@ function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_
   );
 }
 ```
+
+---
+
+**Step 5:**<br>
+In ```bear_skin.theme``` let's modify or add (if you have not already have one - duplicate functions will break your site.<br>
+```
+function bear_skin_preprocess_html(&$variables, $hook) {
+}
+```
+
+in this 
