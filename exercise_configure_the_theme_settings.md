@@ -117,4 +117,16 @@ function bear_skin_preprocess_html(&$variables, $hook) {
 }
 ```
 
-In this 
+In this function we are going to use our ```theme_get_setting``` to set up classes to the body depending on the options we set in the theme settings.
+
+```
+// add class depending on Theme layout settings
+$variables['fixed_layout'] = (theme_get_setting('main_layout') == 'fixed');
+$variables['fluid_layout'] = (theme_get_setting('main_layout') == 'fluid');
+if (theme_get_setting('main_layout') == 'fixed') {
+  $variables['attributes']['class'][] = 'fixed-bear';
+} else if (theme_get_setting('main_layout') == 'fluid') {
+  $variables['attributes']['class'][] = 'fluid-bear';
+}
+
+```
