@@ -70,8 +70,11 @@ Save your files and clear your caches. Now you should be able to see these new o
 ---
 
 **Step 5:**<br>
-
-
+In ```bear_skin.theme``` let's modify or add (if you have not already have one - duplicate functions will break your site.<br>
+```
+function bear_skin_preprocess_html(&$variables, $hook) {
+}
+```
 
 
 ```
