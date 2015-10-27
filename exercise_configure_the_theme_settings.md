@@ -63,7 +63,7 @@ In this step we are going to add two options. One to choose between two layouts 
   );
 ```
 
-
+The code here is pretty straight forward. 
 
 
 ```
