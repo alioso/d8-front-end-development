@@ -8,6 +8,7 @@ This functions exactly like Drupal 7. Add a ```theme-settings.php``` in your the
 Open with ```<?php``` tag and write comments to explain what you do or expose some usable variables.
 **Don't close the your PHP tag!**
 
+---
 
 **Step 2:**<br>
 Define your function.
@@ -20,6 +21,7 @@ function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_
 
 This function overrides the form at ```/admin/appearance/settings/bear_skin```. Next we will populate that function with custom options.
 
+---
 
 **Step 3:**<br>
 Let's first create a fieldset that will contain our custom options so they are grouped together. 
@@ -32,6 +34,11 @@ $form['bear_options'] = array(
 ```
 
 Next we will place our available options within that fieldset.
+
+---
+
+**Step 4:**
+
 
 ```
 <?php
