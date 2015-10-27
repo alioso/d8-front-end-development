@@ -32,3 +32,11 @@ In this example we define a $node variable by getting the node attributes, which
 ---
 
 **Step 3**: Print out the custom author output on article nodes
+
+Create a ```node--article.html.twig``` and paste the following code, initially take and modified from ```node.html.twig```.
+
+```
+
+
+
+```
