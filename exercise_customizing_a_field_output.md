@@ -9,6 +9,8 @@ Under the article content type’s Manage fields, add a new textfield named fiel
 
 If you have not done so already, create an article node and fill in all fields.
 
+---
+
 **Step 2**: Create a new variable for the author information
 
 In bear_skin.theme, find or add ```bear_skin_preprocess_node``` so we end up with the following code:
@@ -25,4 +27,8 @@ function bear_skin_preprocess_node(&$variables) {
 
 ```
 
-In this example we define a $node variable by getting the node attributes, which will allow us to store the author field value in a separate variable "author" if the field contains data. 
+In this example we define a $node variable by getting the node attributes, which will allow us to store the author field value in a separate variable "author" if the field contains data. Also notice the ```kint()``` command. Kint will dump all available variables on your page when devel and devel kint modules are enabled. It will allow you to have a quick overview of the variables available for your preprocessing. Just like the twig template suggestions, it is a very helpful debugging tool when writing overrides.
+
+---
+
+**Step 3**: Print out the custom author output on article nodes
