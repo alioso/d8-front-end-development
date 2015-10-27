@@ -24,6 +24,14 @@ This function overrides the form at ```/admin/appearance/settings/bear_skin```. 
 **Step 3:**<br>
 Let's first create a fieldset that will contain our custom options so they are grouped together. 
 
+```
+$form['bear_options'] = array(
+  '#type' => 'fieldset',
+  '#title' => t('Bear Skin Theme Additional Options'),
+);
+```
+
+Next we will place our available options within that fieldset.
 
 ```
 <?php
