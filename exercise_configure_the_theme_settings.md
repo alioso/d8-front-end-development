@@ -38,7 +38,7 @@ Next we will place our available options within that fieldset.
 ---
 
 **Step 4:**<br>
-
+In this step we are going to add two options. 
 
 
 ```
