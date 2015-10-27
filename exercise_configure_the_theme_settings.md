@@ -65,7 +65,10 @@ In this step we are going to add two options. One to choose between two layouts 
 
 The code here is pretty straight forward. The key is setting the ```#default_value``` as ```theme_get_setting()``` to pass make these options available for our preprocess functions.
 
-Save your files and clear your caches. Now you should be able to see these new options at ```/admin/appearance/settings/bear_skin```. However, while they will get stored on save, they do nothing on their own, simply because we have not added any related function yet. 
+Save your files and clear your caches. Now you should be able to see these new options at ```/admin/appearance/settings/bear_skin```. However, while these options will get stored on save, they do nothing on their own, simply because we have not added any related function yet.
+
+
+
 
 
 ```
