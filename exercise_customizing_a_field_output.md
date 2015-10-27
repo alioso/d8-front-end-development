@@ -78,6 +78,7 @@ Create a ```node--article.html.twig``` and paste the following code, initially t
 
 The line we added here is ```<div style="padding: 30px; margin: 30px 0; border: 1px solid #ccc; color#fff;">{{ author }}</div>``` which passes the variable we defined in ```bear_skin.theme```. I added some inline css to make the field more prevalent, but as always it is better to add a class and theme it within your stylesheet. 
 
+---
 
-*Note:* <br>**In many cases, the best practice to customize a Field display is to create a custom Field formatter in a custom module. With a custom formatter you can easily reuse the format from within Fields, Views, and Panels interfaces. The creation of custom Field formatters can be done in a custom module.**
+*Note:* **In many cases, the best practice to customize a Field display is to create a custom Field formatter in a custom module. With a custom formatter you can easily reuse the format from within Fields, Views, and Panels interfaces. The creation of custom Field formatters can be done in a custom module.**
 
