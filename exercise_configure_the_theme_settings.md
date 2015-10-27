@@ -2,7 +2,27 @@
 
 Drupal comes with some theme settings that can be configured in the administrative UI. This is where some of the site identity assets are defined, as well as a couple of other miscellaneous settings. A Global Settings page located at admin/appearance/settings will define your defaults. but each enabled theme can override these and have its own custom settings.
 
-This functions exactly like Drupal 7. Add a ```theme-settings.php``` in your theme root folder and paste the following code.
+This functions exactly like Drupal 7. Add a ```theme-settings.php``` in your theme root folder and follow these steps.
+
+**Step 1:**<br>
+Open with ```<?php``` tag and write comments to explain what you do or expose some usable variables.
+**Don't close the your PHP tag!**
+
+
+**Step 2:**<br>
+Define your function.
+
+```
+function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_id = NULL) {
+
+}
+```
+
+This function overrides the form at ```/admin/appearance/settings/bear_skin```. Next we will populate that function with custom options.
+
+
+
+
 
 ```
 <?php
@@ -42,5 +62,3 @@ function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_
   );
 }
 ```
-
-Let's take a look 
