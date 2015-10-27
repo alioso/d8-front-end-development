@@ -2,6 +2,9 @@
 
 Here is a list of modules aimed at facilitating the front end workflow.
 
+**[Devel](https://www.drupal.org/project/devel)**<br>
+Helper functions for Drupal developers.
+
 **[Panels](https://www.drupal.org/project/panels)**<br>
 The Panels module allows a site administrator to create customized layouts for multiple uses. At its core it is a drag and drop content manager that lets you visually design a layout and place content within that layout.
 
