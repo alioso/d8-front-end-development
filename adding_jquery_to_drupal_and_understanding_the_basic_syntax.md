@@ -36,7 +36,7 @@ The basic syntax is meant to simplify the writing of Javascript functions. For i
 ```
 $(“#content”).hide();
 $(“header a”).addClass(‘main-link’);
-$(“#page div”).click(function({ 
-  $(this).hide(‘slow’);              
+$(“#content div.clickable”).click(function({ 
+  $(this).hide(300);              
 });
 ```
