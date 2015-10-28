@@ -45,4 +45,4 @@ $(“#content div.clickable”).click(function({
 });
 ```
 
-Let's remember that while jQuery can leverage a lot of front end issues, modifying the DOM has its drawbacks and should not be a replacement for proper css theming.
+Let's remember that while jQuery can leverage a lot of front end issues, modifying the DOM has its drawbacks and should not be a replacement for proper css theming. Always try to see if your problem can be addressed with a template change, preprocess or simply with CSS.
