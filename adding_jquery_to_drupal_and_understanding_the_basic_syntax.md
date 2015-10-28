@@ -35,7 +35,11 @@ The basic syntax is meant to simplify the writing of Javascript functions. For i
 
 ```
 $(“#content”).hide();
+```
+```
 $(“header a”).addClass(‘main-link’);
+```
+```
 $(“#content div.clickable”).click(function({ 
   $(this).hide(300);              
 });
