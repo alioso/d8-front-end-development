@@ -35,6 +35,8 @@ Let's now add a new behavior. Each behavior needs it own name
 })(jQuery, Drupal, window, document);
 ```
 
+In this example, any ```.element``` item will get hidden, even when it is being called through ajax.
+
 * **bear_skin**: Your unique behavior identifier
 * **context**: Behaviors can be fired multiple times during page execution and can be run whenever new DOM elements are inserted into the document.
 * **settings**: Is what enables us to pass information from our PHP code to our JavaScript code. This means you can change how your JavaScript behaves based on your module. For example, you may want to simply let JavaScript know what the base path is. In order to do this, you just create a PHP array of settings, as follows.
