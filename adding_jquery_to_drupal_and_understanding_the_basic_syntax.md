@@ -28,7 +28,7 @@ function bear_skin_preprocess_page(&$variables) {
 }
 ```
 
-Additionally, your custom modules will often be responsible for adding javascript for example for a specific form, views etc.
+Additionally, your custom modules will often be responsible for adding javascript for a specific form, views etc.
 
 ### Syntax
 
