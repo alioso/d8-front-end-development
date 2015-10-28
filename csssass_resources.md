@@ -8,8 +8,6 @@ W3Schools is a web developer information website, with tutorials and references 
 **[Drupal CSS Coding Standards](https://www.drupal.org/coding-standards/css)**<br>
 To minimize friction when contributing to CSS, the front-end developers of the Drupal community have reached consensus about coding standards.
 
-
-
 **[Code Academy](https://www.codecademy.com/learn/web)**<br>
 An online interactive platform that offers free coding classes in 9 different programming languages including Python, PHP, jQuery, JavaScript, AngularJS, and Ruby, as well as markup languages HTML and CSS.
 
