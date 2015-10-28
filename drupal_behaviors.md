@@ -29,7 +29,7 @@ Let's now add a new behavior. Each behavior needs it own name
      var $element = $('header .element', context);
      $element.hide();
   
-   }
+    }
   };
  
 })(jQuery, Drupal, window, document);
