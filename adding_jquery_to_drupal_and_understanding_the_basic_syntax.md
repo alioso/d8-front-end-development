@@ -18,7 +18,7 @@ global_scripts:
 
 It is also possible to attach your libraries to a single page or subset of pages if you don't want to  load it everywhere as shown [here](https://www.drupal.org/theme-guide/8/assets).
 
-For instance, we can attach JS to a page or a content type with a preprocess function:
+For instance, we can attach JS to a page or a content type with a preprocess function. In this example we add a custom library to the home page only. 
 
 ```
 function bear_skin_preprocess_page(&$variables) {
