@@ -17,7 +17,7 @@ It also explicitly imports the global jQuery variable so that your code can use 
 
 ---
 
-Each behavior needs it own name
+Let's now add a new behavior Each behavior needs it own name
 ```
 (function ($, Drupal, window, document, undefined) {
 
@@ -27,8 +27,6 @@ Each behavior needs it own name
   
   Drupal.behaviors.bear_skin = {
    attach: function (context, settings) {
-     context = context || document;
-     settings = settings || Drupal.settings;
      
      //write your custom code here
   
@@ -39,8 +37,8 @@ Each behavior needs it own name
 ```
 
 ```
-
-* **context**: behaviors can be fired multiple times during page execution and can be run whenever new DOM elements are inserted into the document.
+* **bear_skin**: Your unique behavior identifier
+* **context**: Behaviors can be fired multiple times during page execution and can be run whenever new DOM elements are inserted into the document.
 * **settings**: This contains information passed on to JavaScript via PHP, it is similar to accessing it via Drupal.settings. For further comprehension I recommend this source.
 
 More information about behaviors and debugging jQuery in Drupal is available in this [excellent article](https://www.lullabot.com/articles/understanding-javascript-behaviors-in-drupal).
