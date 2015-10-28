@@ -1,6 +1,6 @@
 # Adding jQuery to Drupal and Understanding the basic Syntax
 
-As we've seen in a previous chapter, while jQuery ships with Drupal, it is not being loaded by default, but we called it in our ```bear_skin.libraries.yml``` along a with a couple helpful libraries.
+As we've seen in a previous chapter, while jQuery ships with Drupal, it is not being loaded by default, but we called it in our ```bear_skin.libraries.yml``` along with a with a couple helpful libraries.
 
 ```
 global_scripts:
