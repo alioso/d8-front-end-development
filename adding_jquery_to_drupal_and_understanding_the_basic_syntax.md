@@ -21,7 +21,9 @@ It is also possible to attach your libraries to a single page or subset of pages
 For instance, we can attach JS to a page or a content type with a preprocess function:
 
 ```
-function fluffiness_preprocess_maintenance_page(&$variables) {
-  $variables['#attached']['library'][] = 'fluffiness/cuddly-slider';
+function bear_skin_preprocess_page(&$variables) {
+  if ($variables['is_front']) {
+    $variables['#attached']['library'][] = 'bear_skin/custom-library';
+  }
 }
 ```
