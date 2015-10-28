@@ -18,7 +18,7 @@
    * [Exercise: Configure the theme settings](exercise_configure_the_theme_settings.md)
 * [Session 3: Starter themes and Sub themes](starter_themes_and_sub_themes.md)
    * [Exercise: Create a bear_skin Subtheme](exercise_create_a_bearskin_subtheme.md)
-* [Session 5: Front-End Security and Perfomance](session_5_front-end_security_and_perfomance.md)
+* [Session 4: Front-End Security and Perfomance](session_4_front-end_security_and_perfomance.md)
    * [Sanitizing output](sanitizing_output.md)
    * [Front-end Performance](front-end_performance.md)
 * Session 6: Theming Views and Fields
