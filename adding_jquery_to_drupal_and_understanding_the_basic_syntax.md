@@ -16,3 +16,12 @@ global_scripts:
     - core/jquery.once
 ```
 
+It is also possible to attach your libraries to a single page or subset of pages if you don't want to  load it everywhere as shown [here](https://www.drupal.org/theme-guide/8/assets).
+
+For instance, we can attach JS to a page or a content type with a preprocess function:
+
+```
+function fluffiness_preprocess_maintenance_page(&$variables) {
+  $variables['#attached']['library'][] = 'fluffiness/cuddly-slider';
+}
+```
