@@ -8,8 +8,6 @@ We first start with the necessary wrappers in which to put our behaviors.
 (function ($, Drupal, window, document, undefined) {
 
   'use strict';
-
-  
  
 })(jQuery, Drupal, window, document);
 ```
