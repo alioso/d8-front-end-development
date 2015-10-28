@@ -9,4 +9,6 @@ W3Schools is a web developer information website, with tutorials and references 
 An online interactive platform that offers free coding classes in 9 different programming languages including Python, PHP, jQuery, JavaScript, AngularJS, and Ruby, as well as markup languages HTML and CSS.
 
 **[CSS Guidelines](http://cssguidelin.es/)**<br>
-High-level advice and guidelines for writing sane, manageable, scalable CSS
+High-level advice and guidelines for writing sane, manageable, scalable CSS.
+
+
