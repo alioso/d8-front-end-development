@@ -28,7 +28,7 @@ function bear_skin_preprocess_page(&$variables) {
 }
 ```
 
-Additionally, your custom modules will often be responsible for adding javascript for a specific form, views etc. This way the code can be dynamically loaded upon its dependant element. 
+Additionally, your custom modules will often be responsible for adding javascript for a specific form, views etc. This way the code can be dynamically loaded upon its dependent element. 
 
 ### Syntax
 
