@@ -28,5 +28,5 @@
    * [Adding jQuery to Drupal and Understanding the basic Syntax](adding_jquery_to_drupal_and_understanding_the_basic_syntax.md)
    * [Drupal Behaviors](drupal_behaviors.md)
 * [Session 7: Resources](session_7_Resources.md)
-   * [Helpful Modules](helpful_modules.md)
+   * [Popular Front End Modules](helpful_modules.md)
 
