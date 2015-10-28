@@ -34,7 +34,6 @@ Let's now add a new behavior. Each behavior needs it own name
 })(jQuery, Drupal, window, document);
 ```
 
-```
 * **bear_skin**: Your unique behavior identifier
 * **context**: Behaviors can be fired multiple times during page execution and can be run whenever new DOM elements are inserted into the document.
 * **settings**: This contains information passed on to JavaScript via PHP, it is similar to accessing it via Drupal.settings. For further comprehension I recommend this source.
