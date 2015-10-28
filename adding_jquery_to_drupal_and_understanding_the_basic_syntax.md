@@ -44,3 +44,5 @@ $(“#content div.clickable”).click(function({
   $(this).hide(300);              
 });
 ```
+
+Let's remember that while jQuery can leverage a lot of front end issues, modifying the DOM has its drawbacks and should not be a replacement for proper css theming.
