@@ -27,3 +27,16 @@ function bear_skin_preprocess_page(&$variables) {
   }
 }
 ```
+
+### Syntax
+
+
+The basic syntax is meant to simplify the writing of Javascript functions. For instance:
+
+```
+$(“#content”).hide();
+$(“header a”).addClass(‘main-link’);
+$(“#page p”).click(function({ 
+  $(this).hide(‘slow’);              
+});
+```
