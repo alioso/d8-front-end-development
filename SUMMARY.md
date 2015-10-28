@@ -29,5 +29,5 @@
    * [Drupal Behaviors](drupal_behaviors.md)
 * [Session 7: Resources](session_7_Resources.md)
    * [Popular Front End Modules](helpful_modules.md)
-   * CSS/SASS Resources
+   * [CSS/SASS Resources](csssass_resources.md)
 
