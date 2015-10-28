@@ -16,3 +16,4 @@ High-level advice and guidelines for writing sane, manageable, scalable CSS.
 
 
 **[Sass techniques and tools](https://www.drupal.org/node/1913280)**<br>
+Here is an article on Sass CSS preprocessor that talks about everything you need to get started with Sass and using it with Drupal.
