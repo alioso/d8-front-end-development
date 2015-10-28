@@ -17,7 +17,7 @@ It also explicitly imports the global jQuery variable so that your code can use 
 
 ---
 
-Let's now add a new behavior Each behavior needs it own name
+Let's now add a new behavior. Each behavior needs it own name
 ```
 (function ($, Drupal, window, document, undefined) {
 
