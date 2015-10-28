@@ -21,8 +21,6 @@ Let's now add a new behavior. Each behavior needs it own name
 ```
 (function ($, Drupal, window, document, undefined) {
 
-  'use strict';
-
   // Use the sample behavior pattern below
   
   Drupal.behaviors.bear_skin = {
