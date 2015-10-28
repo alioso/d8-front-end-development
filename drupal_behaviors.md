@@ -37,6 +37,6 @@ Let's now add a new behavior. Each behavior needs it own name
 
 * **bear_skin**: Your unique behavior identifier
 * **context**: Behaviors can be fired multiple times during page execution and can be run whenever new DOM elements are inserted into the document.
-* **settings**: This contains information passed on to JavaScript via PHP, it is similar to accessing it via Drupal.settings.
+* **settings**: Is what enables us to pass information from our PHP code to our JavaScript code. This means you can change how your JavaScript behaves based on your module. For example, you may want to simply let JavaScript know what the base path is. In order to do this, you just create a PHP array of settings, as follows
 
 More information about behaviors and debugging jQuery in Drupal is available in this [excellent article](https://www.lullabot.com/articles/understanding-javascript-behaviors-in-drupal).
