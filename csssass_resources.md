@@ -19,4 +19,4 @@ High-level advice and guidelines for writing sane, manageable, scalable CSS.
 Here is an article on Sass CSS preprocessor that talks about everything you need to get started with Sass and using it with Drupal.
 
 **[Using Grunt, bootstrap, Compass and SASS in a Drupal sub theme](https://www.deeson.co.uk/labs/using-grunt-bootstrap-compass-and-sass-drupal-sub-theme)**<br>
-A close look at setting up your environment with Grunt and a possible SASS file structure. 
+A in-depth look at setting up your environment with Grunt for a boostrap sub-theme.
