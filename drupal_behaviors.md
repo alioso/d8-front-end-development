@@ -41,8 +41,23 @@ In this example, any ```.element``` item will get hidden, even when it is being 
 * **context**: Behaviors can be fired multiple times during page execution and can be run whenever new DOM elements are inserted into the document.
 * **settings**: Is what enables us to pass information from our PHP code to our JavaScript code. This means you can change how your JavaScript behaves based on your module. For example, you may want to simply let JavaScript know what the base path is. In order to do this, you just create a PHP array of settings, as follows.
 
-Additionally, you may not want to to run your code on every request. ```jQuery.once();``` to the rescue!
+Additionally, you may not want to to run your code on every request. ```jQuery.once();``` to the rescue! You could add this to your existing code.
 
+```
+$element
+  .once()
+  .hide();
+```
 
+or
+
+```
+context.once(function() {
+  var $element = $('header .element', this);
+  $element.hide();
+}
+```
+
+If you'd rather group some functions under the same ```.once()``` wrapper.
 
 More information about behaviors and debugging jQuery in Drupal is available in this [excellent article](https://www.lullabot.com/articles/understanding-javascript-behaviors-in-drupal).
