@@ -6,7 +6,7 @@ Best practice during theme development is to ensure you have a stable administra
 
 ![](admin-theme.png)
 
-* **Step 2**: Look at the blocks administration page (Click Structure, then Blocks). Configure blocks for your admin theme. If your admin theme is not enabled, it will not show up as a tab on the blocks administration page.
+* **Step 2**: Look at the blocks administration page (admin/structure/block).
 
 
 
