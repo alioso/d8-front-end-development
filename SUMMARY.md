@@ -6,7 +6,7 @@
    * [What is the theme layer?](what_is_the_theme_layer.md)
        * [Types of themes](types_of_themes.md)
        * [Exercise: Change the default administrative theme](exercise_change_the_default_administrative_theme.md)
-       * Exercise: Explore the Block System
+       * [Exercise: Explore the Block System](exercise_explore_the_block_system.md)
        * [How does theming work?](how_does_theming_work.md)
        * [Exercise: Add a contributed theme](exercise_add_a_contributed_theme.md)
        * [The chain of command](the_chain_of_command.md)
