@@ -15,7 +15,7 @@ Drupal theme development crosses many disciplines. The following charts - borrow
 | [Configuration export](https://groups.drupal.org/node/189129) | Taking Drupal configuration and turning it into exportable, importable and version-controllable code. |
 | [Basic theming skills](https://groups.drupal.org/node/193043) | This involves installing themes, creating subthemes, and tweaking sub themes with CSS and custom template files. This also requires a strong knowledge of HTML|
 | [Advanced theming skills](https://groups.drupal.org/node/193053) | This involves responsive web design, grid based layout techniques, jQuery based interactions |
-|[ Twig coding](https://www.drupal.org/theme-guide/8/twig) | A Drupal 8 moved its templating system, you'll need to know the Twig syntax to effectively manage your templates. |
+|[ Twig coding](https://www.drupal.org/theme-guide/8/twig) | As Drupal 8 moved its templating system, you'll need to know the Twig syntax to effectively manage your templates. |
 |[ Javacript/jQuery coding](https://www.drupal.org/node/2269515) | You'll need to know the coding standards to add javascript to your pages and use it to improve user interactions and other front end related tasks. |
 | [PHP coding](https://groups.drupal.org/node/188934) | This involves the basics you'd need to know of PHP before learning Drupal theming. |
 | [Front end development ](https://grosups.drupal.org/node/193058)| This includes developing base themes, writing layout plugins to contrib modules, optimizing front end performance, declaring new renderable elements. Writing theme functions, preprocess functions, form_alters. **Good knowledge of accessibility standards**|
