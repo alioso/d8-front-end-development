@@ -1,8 +1,8 @@
 <div style="text-align:center;">
 
-![](zivtech-logo.png)
+<img src="zivtech-logo.png" />
 
-# Drupal 8 Front End Development
+<h1>Drupal 8 Front End Development</h1>
 
 </div>
 
