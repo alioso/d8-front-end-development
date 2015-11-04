@@ -4,7 +4,7 @@
 
 * ***Create a folder***: bear_skin
 * ***Create a text file***: bear_skin.info.yml
-<br>
+<br><br>
 
 Unlike in Drupal 7, themes in Drupal 8 do not have .info files. They have been replaced with Yaml (.yml) files. The syntax is easy and intuitive, but make sure to check out a few examples as there are conventions to respect. For example, set indentation to spaces, not tabs, respect precise indentation, etc). Read more at http://twig.sensiolabs.org/
 
