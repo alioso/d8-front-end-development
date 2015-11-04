@@ -14,7 +14,7 @@ There is a chain of command in the types of languages available to the themer. E
 
 ---
 
-It is important to use each language for its intended purpose, and to follow the chain of command and attempt to use, for example, javascript to accomplish a CSS task, or to use CSS to cover up something that should be handled in markup or PHP. Violating this command chain for momentary convenience tends to cause problems. Another way to think about it is in terms of each level adding enhancement, as the site should still function as the outer-most layers are stripped away.
+It is important to use each language for its intended purpose, and to follow the chain of command and not attempt to use, for example, javascript to accomplish a CSS task, or to use CSS to cover up something that should be handled in markup or PHP. Violating this command chain for momentary convenience tends to cause problems. Another way to think about it is in terms of each level adding enhancement, as the site should still function as the outer-most layers are stripped away.
 
 ![](chain.png)
 
