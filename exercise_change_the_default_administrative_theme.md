@@ -8,6 +8,11 @@ Best practice during theme development is to ensure you have a stable administra
 
 ---
 
+**Contributed Admin Themes**:
+Drupal core comes with an admin theme called Seven. At this time, very few Drupal 8 admin themes are production ready. 
+
+---
+
 * **Step 2**: Look at the blocks administration page (admin/structure/block).
 
 ![](blocks.png)
@@ -18,7 +23,4 @@ In this screenshot, we can see the blocks enabled for bear_skin, placed in the r
 
 Additionally, each block you have visibility settings (for instance, if you only want the block to show on the home page, or for a specific content type). 
 
----
 
-**Contributed Admin Themes**:
-Drupal core comes with an admin theme called Seven. At this time, very few Drupal 8 admin themes are production ready. 
