@@ -132,7 +132,7 @@ bear_skin.wide:
 ---
 
 **Step 7**: Add CSS to your theme.
-Add two folders in your mytheme folder. A css folder and a js folder. 
-Add a styles.css and a scripts.js and place them in their newly created respective folders.
+Add two directories within your bearskin theme directory: a 'css' directory and a 'js' directory.
+Add a styles.css and a scripts.js and place them in their respective directories.
 
 Go to your Home page and view your site. At this stage you could override how your site looks entirely with CSS, using the default markup of Drupal.
