@@ -6,4 +6,4 @@ In our scenario, a designer has completed mockups showing a home page and interi
 
 Do you see any common Drupal elements that the design does not represent which you would have to infer from the general design or ask the designer to address?
 
-These first steps are crucial to save development time in the future. A good assessment of the sites assets guaranties a  solid base for development and collaborative work. Think of it as a cooking recipe. You first need to have all the ingredients, but the recipe won't tell you everything, you'll need to also evaluate what you don't see yet and try to plan ahead of time to ensure scalability.
+These first steps are crucial to save development time in the future. A good assessment of the site's assets guaranties a  solid base for development and collaborative work. Think of it as a cooking recipe. You first need to have all the ingredients, but the recipe won't tell you everything, you'll need to also evaluate what you don't see yet and try to plan ahead of time to ensure scalability.
