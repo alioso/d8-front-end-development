@@ -14,8 +14,5 @@ Best practice during theme development is to ensure you have a stable administra
 
 
 
-
-
-
 **Contributed Admin Themes**:
 Drupal core comes with an admin theme called Seven. At this time, very few Drupal 8 admin themes are production ready. 
