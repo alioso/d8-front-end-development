@@ -6,7 +6,7 @@
 
 **Custom Themes**: Most larger sites require a custom look and feel. These are often created as sub-themes of a starter theme.
 
-**Premium Themes**:  Pre-made themes available for purchase. (e.g., fusiondrupalthemes.com or rockettheme.com) These often have an interface for site-specific customizations and commercial support.
+**Premium Themes**:  Pre-made themes available for purchase. (e.g., http://www.sooperthemes.com/ or http://www.themebrain.com/) These often have an interface for site-specific customizations and commercial support.
 
 **Starter Themes**:  A base theme with a basic layout and little styling designed to be used as a starting point for a custom sub-theme. It is typically much easier to create a custom theme from a starter theme than from scratch.
 
