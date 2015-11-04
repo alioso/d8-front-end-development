@@ -1,6 +1,6 @@
 # Exercise: Constructing a basic theme
 
-**Step 1**: Go to your /themes/custom folder from youDrupal 8 root folder. 
+**Step 1**: Go to your /themes/custom folder from your Drupal 8 root folder. 
 
 * ***Create a folder***: bear_skin
 * ***Create a text file***: bear_skin.info.yml
