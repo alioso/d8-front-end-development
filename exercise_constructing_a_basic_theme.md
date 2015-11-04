@@ -13,7 +13,7 @@ In that text file add the following lines:
 ```
 name: Bear Skin
 type: theme
-description: ‘My custom theme'
+description: 'My custom theme'
 package: Custom
 core: 8.x
 engine: twig
