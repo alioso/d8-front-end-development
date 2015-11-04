@@ -1,6 +1,6 @@
 <div style="text-align:center";>
-![](zivtech-logo.png)
 
+![](zivtech-logo.png)
 
 # Drupal 8 Front End Development
 
