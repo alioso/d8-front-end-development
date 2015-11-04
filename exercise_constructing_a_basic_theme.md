@@ -97,8 +97,9 @@ A breakpoint consists of a label and a media query. Media queries are a formal w
 
 Themes and modules can define breakpoints by creating a config file called myThemeOrModule.breakpoints.yml, where myThemeOrModule is the name of your theme or module. In our case, create a bear_skin.breakpoints.yml
 
-Each entry in this file defines one breakpoint, consisting of a machine name, by which the breakpoint entry is uniquely identified e.g. bear_skin.mobile, and it's children defining the breakpoint's properties:
+Each entry in this file defines one breakpoint and its properties, consisting of a machine name, by which the breakpoint entry is uniquely identified e.g. bear_skin.mobile, and it's children defining the breakpoint's properties:
 
+* **Machine Name** - ex: bear_skin.mobile - must be unique.
 * **label** - A human readable label for the breakpoint.
 * **mediaQuery** - Media query text proper ('all and (min-width: 1000px)'.
 * **weight** - Positional weight (order) for the breakpoint.<br>
