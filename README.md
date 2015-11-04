@@ -1,2 +1,1 @@
-![](cover.png)
-
+![](zivtech-logo.png)
