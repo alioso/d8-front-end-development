@@ -6,11 +6,14 @@ Best practice during theme development is to ensure you have a stable administra
 
 ![](admin-theme.png)
 
+---
+
 * **Step 2**: Look at the blocks administration page (admin/structure/block).
 
+![](blocks.png)
 
 
----
+
 
 
 
