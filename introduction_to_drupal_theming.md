@@ -12,6 +12,6 @@ Everyone wants to hire the perfect Drupal developer - but you need a way to iden
 * What previous experiences and transferable skills are going to help someone make the switch to Drupal and excel on a busy team for a typical Drupal site owner?
 * What are the transferable skills and characteristics someone could look for in a potential Drupal developer? 
 
-There are many roles recognized in the Drupal community, they are often grouped them into three roles: Back-end developer, and Front-end developer and Site Builder. 
+There are many roles recognized in the Drupal community, they are often grouped into three roles: Back-end developer, and Front-end developer and Site Builder. 
 
 **Themes make Drupal websites beautiful – and Themers are the bridge between the science of code and the art of design. While Drupal markup isn’t the prettiest out of the box, it’s very flexible in how you alter it. A good theme will show off all the best aspects of your website, while maintaining all the speed and flexibility that Drupal brings to the table.**
