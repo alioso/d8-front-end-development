@@ -113,7 +113,7 @@ function bear_skin_form_system_theme_settings_alter(&$form, &$form_state, $form_
 **Step 5:**<br>
 In ```bear_skin.theme``` let's modify or add (if you have not already have one - duplicate functions will break your site.<br>
 ```
-function bear_skin_preprocess_html(&$variables, $hook) {
+function bear_skin_preprocess_html(&$variables) {
 }
 ```
 
