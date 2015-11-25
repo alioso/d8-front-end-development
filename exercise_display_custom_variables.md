@@ -25,7 +25,7 @@ These will collects, sanitizes, and renders HTML attributes. It optionally passe
 In this Exercise we will define a simple string variable to display in our Twig template.
 
 ```
-function bear_skin_preprocess_page(&$variables, $hook) {
+function bear_skin_preprocess_page(&$variables) {
   $variables['my_variable'] = "Here is my variable string";
 }
 ```
