@@ -7,8 +7,6 @@ This file is a placeholder for preprocess functions for the theme layer. It can 
 Create a new file in your folder called **bear_skin.theme**. This file was previously called template.php in Drupal 7. The .theme file serves the exact same purpose, but many of the preprocess functions are different in Drupal 8.
 
 
-
-
 Add one line to start the document
 ```<?php ```
 but **do not** close the with ```?>```
