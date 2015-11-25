@@ -4,8 +4,6 @@ A lot of changes have been introduced between Drupal 7 and Drupal 8. The most im
 
 Note: In addition to this guide we will also make extensive use of the excellent Drupal.org Theme Handbook as a reference: https://www.drupal.org/theme-guide/8
 
-![](drupal 8 logo.jpg)
-
 
 Everyone wants to hire the perfect Drupal developer - but you need a way to identify future potential Drupal front-end developers.
 
