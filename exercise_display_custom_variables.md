@@ -18,11 +18,13 @@ use Drupal\Component\Utility\Xss;
 use Drupal\Core\Template\Attribute;
 ```
 
+These will collects, sanitizes, and renders HTML attributes. It optionally passes in an associative array of defined attributes, or add attributes using array syntax. Read more about Drupal 8 attributes [here](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Template%21Attribute.php/class/Attribute/8).
+
 **Step 2**: Define a custom variable
 
-```
 In this Exercise we will define a simple string variable to display in our Twig template.
 
+```
 function bear_skin_preprocess_page(&$variables, $hook) {
   $variables['my_variable'] = "Here is my variable string";
 }
