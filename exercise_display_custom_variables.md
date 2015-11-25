@@ -30,6 +30,10 @@ function bear_skin_preprocess_page(&$variables, $hook) {
 }
 ```
 
+We wrap this new variable in a preprocess function ```bear_skin_preprocess_page(&$variables, $hook) {}```
+
+A proprocess function intercepts (overrides) and existing Drupal core function. For instance, the original function is [template_preprocess_page](https://api.drupal.org/api/drupal/core!includes!theme.inc/function/template_preprocess_page/8). By replacing "template" with our theme name, we will hook this function and either modify it or add function, variables etc.
+
 **Step 3**: Display your variable
 Add this line at the top of your page.html.twig
 
