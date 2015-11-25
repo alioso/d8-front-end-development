@@ -5,10 +5,6 @@ A lot of changes have been introduced between Drupal 7 and Drupal 8. The most im
 Note: In addition to this guide we will also make extensive use of the excellent Drupal.org Theme Handbook as a reference: https://www.drupal.org/theme-guide/8
 
 
-Everyone wants to hire the perfect Drupal developer - but you need a way to identify future potential Drupal front-end developers.
-
-* What previous experiences and transferable skills are going to help someone make the switch to Drupal and excel on a busy team for a typical Drupal site owner?
-* What are the transferable skills and characteristics someone could look for in a potential Drupal developer? 
 
 There are many roles recognized in the Drupal community, they are often grouped into three roles: Back-end developer, and Front-end developer and Site Builder. 
 
