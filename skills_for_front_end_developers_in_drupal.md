@@ -1,6 +1,6 @@
 # Skills for Front end Developers in Drupal
 
-Drupal theme development crosses many disciplines. The following charts - borrowed from [Drupal.org](https://groups.drupal.org/node/172434) - summarizes the recommended skills for any developer planning to create and develop a Drupal 8 theme. While it is not necessary to master all these disciplines, you are likely to encounter situation requiring some basic understanding of the skills below.
+Drupal theme development crosses many disciplines. The following chart - borrowed from [Drupal.org](https://groups.drupal.org/node/172434) - summarizes the recommended skills for any developer planning to create and develop a Drupal 8 theme. While it is not necessary to master all these disciplines, you are likely to encounter situation requiring some basic understanding of the skills below.
 
 | Skill Set | Description |
 | -- | -- |
