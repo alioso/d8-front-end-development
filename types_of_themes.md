@@ -1,6 +1,6 @@
 # Types of themes
 
-**Core Themes**: In D8, there are some new core themes which are intended to be used as base themes. The proper was to use them is to build a sub-theme for them.
+**Core Themes**: D8 ships with a few core themes which are intended to be used as base themes and customized with a sub theme.
 
 **Contributed Themes**: http://drupal.org/project/themes These are free themes that have been contributed to the Drupal Community.  They are not part of any official release and may not have optimized functionality for your purposes.
 
