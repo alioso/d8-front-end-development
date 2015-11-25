@@ -9,7 +9,7 @@ Create a new file in your folder called **bear_skin.theme**. This file was previ
 
 Add one line to start the document
 ```<?php ```
-but **not** a closing ```?>``` statement
+but **not** a closing ```?>``` tag.
 
 add:
 
