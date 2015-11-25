@@ -51,7 +51,7 @@ Notice that a full absolute path from the site root is needed for that purpose.
 ---
 
 **Step 4**: Add regions to your bear_skin.info.yml file. The regions below are the ones defined as the core regions. Notice the indentation should remain consistent with the previous steps. 
-You can add you own and use the variables in your page.html.twig. For instance, a region set as ```featured: 'Featured Content'``` can be output in page.html.twig as ```{{ page.highlighted }}```
+You can add you own and use the variables in your page.html.twig. For instance, a region set as ```featured: 'Featured Content'``` will be rendered in page.html.twig as ```{{ page.highlighted }}```
 
 ```
 regions:
