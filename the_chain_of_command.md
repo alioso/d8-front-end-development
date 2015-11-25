@@ -8,7 +8,7 @@ There is a chain of command in the types of languages available to the themer. E
 | HTML | Creation of the desired markup around the content and scaffolding for the CSS and JS |
 | Twig | Templating system |
 | CSS | The look of the site |
-| JS/jQUERY | User interactions, animations, etc |
+| JS/jQuery | User interactions, animations, etc |
 
 
 
