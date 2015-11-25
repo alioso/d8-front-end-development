@@ -1,9 +1,12 @@
 # Exercise: Display custom variables
 
 **Step 1**: Add the theme file.
-Create a new file in your folder called **bear_skin.theme**. This file was previously called template.php in Drupal 7. The .theme file serves the exact same purpose, but many of the preprocess functions are different in Drupal 8.
 
 This file is a placeholder for preprocess functions for the theme layer. It can set up variables to use in template files, or override the markup of certain elements as well as modifying logic functions.
+
+Create a new file in your folder called **bear_skin.theme**. This file was previously called template.php in Drupal 7. The .theme file serves the exact same purpose, but many of the preprocess functions are different in Drupal 8.
+
+
 
 
 Add one line to start the document
