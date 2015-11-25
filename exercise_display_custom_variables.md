@@ -22,6 +22,7 @@ use Drupal\Core\Template\Attribute;
 
 ```
 In this Exercise we will define a simple string variable to display in our Twig template.
+
 function bear_skin_preprocess_page(&$variables, $hook) {
   $variables['my_variable'] = "Here is my variable string";
 }
