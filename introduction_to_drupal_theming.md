@@ -6,4 +6,4 @@ Note: In addition to this guide we will also make extensive use of the excellent
 
 There are many roles recognized in the Drupal community, they are often grouped into three roles: Back-end developer, Front-end developer and Site Builder. 
 
-**Themes make Drupal websites beautiful – and Themers are the bridge between the science of code and the art of design. While Drupal markup isn’t the prettiest out of the box, it’s very flexible in how you alter it. A good theme will show off all the best aspects of your website, while maintaining all the speed and flexibility that Drupal brings to the table.**
+**Themes make Drupal websites beautiful – and Themers are the bridge between the science of code and the art of design.** While Drupal markup isn’t the prettiest out of the box, it’s very flexible in how you alter it. A good theme will show off all the best aspects of your website, while maintaining all the speed and flexibility that Drupal brings to the table.
